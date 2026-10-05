@@ -1,0 +1,1583 @@
+[
+  {
+    "arxiv_id": "2609.36156",
+    "arxiv_id_version": "2609.36156v1",
+    "title": "Traffic Congestion Awareness and On-Demand Distribution in Vehicular Delay-Tolerant Networks in California I-210 Freeway",
+    "authors": [
+      "Xiaofei Liu",
+      "Milena Radenkovic"
+    ],
+    "abstract": "In vehicular networks under edge computing environments, vehicle-to-vehicle delay-tolerant networking (V-DTN) can disseminate congestion warnings to other vehicles via a store-carry-forward mechanism, helping them proactively choose suitable routes. However, most existing in-vehicle information dissemination methods rely on flooding or limited flooding strategies, broadcasting alerts across the entire network whenever congestion is detected. This leads to excessive redundant copies and consumes node cache space. To address this issue, this paper proposes a congestion-event- aware on-demand message dissemination mechanism. By considering the recurrence and duration of congestion, the mechanism suppresses broadcasts of short-lived, self-dissipating congestion events. Based on real-world PeMS data from California's I-210 corridor, we construct an I-210 Freeway Traffic Congestion Use Case. Experiments show that predicting congestion recurrence heavily relies on historical free-flow speed data of lanes. Without incorporating additional feature dimensions, the accuracy of modeling and comparing lane free-flow speeds across different day types outweighs the choice of machine learning models, and such patterns are difficult to reproduce in simulators. Meanwhile, congestion duration prediction serves effectively as the basis for dynamic-threshold on-demand dissemination in V-DTN, which demonstrate that machine learning-based congestion awareness combined with dynamic-threshold on-demand dissemination significantly reduces network resource consumption and network-layer congestion, enhances delivery reliability, and lowers delivery latency.",
+    "published": "2026-09-28T19:27:09Z",
+    "updated": "2026-09-28T19:27:09Z",
+    "categories": [
+      "cs.NI"
+    ],
+    "primary_category": "cs.NI",
+    "url": "https://arxiv.org/abs/2609.36156",
+    "pdf_url": "https://arxiv.org/pdf/2609.36156v1",
+    "doi": null
+  },
+  {
+    "arxiv_id": "2609.14678",
+    "arxiv_id_version": "2609.14678v1",
+    "title": "A Graph Neural Network Surrogate Model for Incident-Based Travel Time Prediction Under Limited Sensor Data",
+    "authors": [
+      "Abhilasha Saroj",
+      "Natalie Myers",
+      "Haoran Niu"
+    ],
+    "abstract": "Localized roadway incidents can produce congestion well beyond their point of origin, but evaluating these effects with microscopic simulation requires a separate run for each scenario. This paper presents a Spatio-Temporal Graph Convolutional Network (STGCN) for forecasting route-level travel times on a simulated Nashville, Tennessee road network with 1,037 junctions and 1,601 road segments. The model uses directional traffic counts from only 129 signalized intersections, reflecting data commonly available to transportation agencies. By representing these intersections as a graph, the STGCN jointly captures spatial dependence and temporal traffic evolution to learn how localized disruptions propagate through the network. We compare a baseline trained on 80 incident-free simulations with an incident-inclusive model trained with an additional 360 lane-blockage scenarios across 12 locations and three durations. The baseline achieved a relative mean absolute error (MAE) of 9.94%. The incident-inclusive model achieved 9.67% overall, 6.45% during active incidents, and 13.62% at 30 incident locations withheld entirely from training. On disrupted routes, its predictions were within 2.0 minutes of observed travel time on average. For comparison, simulated travel times vary by 7.4%, or 1.3 minutes, across random seeds under identical conditions. Inference requires approximately 53 ms on a single CPU core, demonstrating the potential of the model as an efficient surrogate for transportation resilience screening, incident management, and proactive rerouting.",
+    "published": "2026-09-13T17:22:57Z",
+    "updated": "2026-09-13T17:22:57Z",
+    "categories": [
+      "cs.CE"
+    ],
+    "primary_category": "cs.CE",
+    "url": "https://arxiv.org/abs/2609.14678",
+    "pdf_url": "https://arxiv.org/pdf/2609.14678v1",
+    "doi": null
+  },
+  {
+    "arxiv_id": "2609.38190",
+    "arxiv_id_version": "2609.38190v1",
+    "title": "Travel Time Prediction in Supply Chain Management Using Machine Learning",
+    "authors": [
+      "Balaji Venkateswaran"
+    ],
+    "abstract": "The purpose of this research is to find data and methods using machine learning and deep learning to correctly predict the estimated travel time for transportation and logistics in a supply chain system. The supply chain ecosystem is very complex and heavily relies on the transportation and logistics of raw materials and finished goods. Accurate travel time estimation is critical because it helps supply chain members to improve logistics consistency and performance. This helps in planning, demand forecasting, lead time management and assembly planning. The logistics on the delivery side of the customer also plays a crucial role in customer satisfaction and voice of customer. With the collection of huge historical data and using novel techniques, the research builds an accurate model to predict travel time of inventory.",
+    "published": "2026-09-05T14:10:23Z",
+    "updated": "2026-09-05T14:10:23Z",
+    "categories": [
+      "cs.LG",
+      "cs.AI"
+    ],
+    "primary_category": "cs.LG",
+    "url": "https://arxiv.org/abs/2609.38190",
+    "pdf_url": "https://arxiv.org/pdf/2609.38190v1",
+    "doi": null
+  },
+  {
+    "arxiv_id": "2608.01180",
+    "arxiv_id_version": "2608.01180v1",
+    "title": "Interpretable Machine Learning for Traffic Congestion Prediction: Unveiling the Impact of Different COVID-19 Periods",
+    "authors": [
+      "Dan Zhu",
+      "Chi Sin Ng",
+      "Litian Xie",
+      "Yang Liu"
+    ],
+    "abstract": "Traffic congestion prediction is essential for congestion mitigation, but the COVID-19 pandemic and related control measures altered travel behavior and increased prediction complexity. This study predicts congestion in Alameda County, California, during pre-lockdown, lockdown, and post-lockdown periods. Weather, seasonality, and COVID-19 variables are incorporated, and Recursive Feature Elimination with Cross-Validation is used to select important features and reduce overfitting. Support vector regression, multiple linear regression, recurrent neural networks, and long short-term memory networks are trained and optimized. Because LSTM is more sensitive to hyperparameter settings, an adaptive parameter selection approach is used, while SVR and RNN are manually tuned. Performance is evaluated using Normalized Root Mean Square Error. Bidirectional LSTM consistently performs best across all periods because it captures temporal dependence in both directions. Integrated Gradients is used to interpret Bi-LSTM predictions, and SHapley Additive exPlanations is applied to SVR. New COVID-19 cases have a mainly negative effect on congestion during lockdown and post-lockdown, likely due to greater risk awareness, voluntary travel reduction, and compliance with mobility restrictions. In the post-pandemic period, higher hospitalization reduces travel and congestion, while higher fuel prices do not prevent a shift toward private vehicles and therefore increase congestion.",
+    "published": "2026-08-02T11:58:08Z",
+    "updated": "2026-08-02T11:58:08Z",
+    "categories": [
+      "cs.LG"
+    ],
+    "primary_category": "cs.LG",
+    "url": "https://arxiv.org/abs/2608.01180",
+    "pdf_url": "https://arxiv.org/pdf/2608.01180v1",
+    "doi": null
+  },
+  {
+    "arxiv_id": "2608.00402",
+    "arxiv_id_version": "2608.00402v1",
+    "title": "DSETA: A Dual-Stage Continual Learning Framework for Travel Time Prediction in Dynamic Traffic Environments",
+    "authors": [
+      "Yanming Lyu",
+      "Yue Cheng",
+      "Lingkun Li",
+      "Ruipeng Gao",
+      "Xinyue Liu",
+      "Hui Gao",
+      "Qiang Ni"
+    ],
+    "abstract": "Estimated Time of Arrival (ETA) prediction is a core component of intelligent transportation systems. As traffic congestion patterns become increasingly dynamic in large cities, maintaining high prediction accuracy poses a major challenge for ride-hailing platforms. Existing methods either fail to adapt to irregular traffic patterns and sudden congestion, or suffer from new distributions without disentangling long-term trends from short-term fluctuations, thereby degrading model performance in real-world scenarios. To address this challenge, we propose DSETA, an incrementally updated Dual-Stage ETA prediction framework. Specifically, the continual learning process is divided into \\textit{inter-day} and \\textit{intra-day} stages. We first design the \\textit{intra-day} learning stage, which relies entirely on real-time data to enable dynamic adaptation to short-term traffic patterns caused by events like holidays or accidents. Next, we develop the \\textit{inter-day} learning stage, which leverages aggregated historical data from a short time window to capture knowledge of long-term distribution shifts, such as seasonal trends and traffic network evolution. Subsequently, to prevent catastrophic forgetting and preserve knowledge of regular patterns, we explore a \\textit{Historical Traffic Knowledge Consolidation} module. Finally, we validate DSETA's effectiveness and robustness through extensive offline and online experiments conducted on real-world datasets from DiDi's platform. Online A/B tests across three major cities including Beijing, Wuhan, and Xi'an consistently demonstrated performance gains, achieving MAE reductions of 6.62\\%, 0.73\\%, and 2.40\\% respectively. This framework has been successfully deployed in DiDi's production environment, processing hundreds of millions of daily requests and validating its strong performance in industrial applications.",
+    "published": "2026-08-01T02:55:14Z",
+    "updated": "2026-08-01T02:55:14Z",
+    "categories": [
+      "cs.LG",
+      "cs.AI"
+    ],
+    "primary_category": "cs.LG",
+    "url": "https://arxiv.org/abs/2608.00402",
+    "pdf_url": "https://arxiv.org/pdf/2608.00402v1",
+    "doi": null
+  },
+  {
+    "arxiv_id": "2606.18367",
+    "arxiv_id_version": "2606.18367v2",
+    "title": "Do Time Series Foundation Model Benchmarks Hide Regime-Dependent Failures? Evidence from Traffic Speed Forecasting",
+    "authors": [
+      "Yingshuo Wang",
+      "Xian Sun",
+      "Lingdong Kong",
+      "Wei Gao",
+      "Yanhang Li",
+      "Zhichao Fan",
+      "Zexin Zhuang"
+    ],
+    "abstract": "Standard benchmarks evaluate time series foundation models (TSFMs) using aggregate metrics, but these can mask severe failures in critical operating regimes. We introduce regime-stratified evaluation and apply it to three TSFMs on two standard traffic speed benchmarks. Traffic exhibits abrupt regime switching between free-flow and congested states, producing bimodal speed distributions during transitions. When we stratify by traffic regime, both accuracy and prediction-interval coverage degrade sharply during transitions: transition-regime MAE reaches 11 mph (versus 3 mph overall), and empirical coverage of 90% prediction intervals drops as low as 55%. These failures are invisible in aggregate metrics because free-flow observations dominate the sample. A simple historical conditional baseline (sampling from per-sensor training distributions) achieves better transition coverage than any TSFM, but has far worse overall accuracy. We propose bimodal mixture augmentation (BMA), a post-hoc method that combines TSFM forecasts with historical distributional knowledge, approaching the historical baseline's transition coverage while preserving the TSFM's accuracy. Our results suggest that TSFM benchmarks should incorporate regime-aware evaluation to surface failures that aggregate metrics hide.",
+    "published": "2026-06-16T18:16:07Z",
+    "updated": "2026-07-01T05:08:27Z",
+    "categories": [
+      "cs.LG"
+    ],
+    "primary_category": "cs.LG",
+    "url": "https://arxiv.org/abs/2606.18367",
+    "pdf_url": "https://arxiv.org/pdf/2606.18367v2",
+    "doi": null
+  },
+  {
+    "arxiv_id": "2605.09960",
+    "arxiv_id_version": "2605.09960v1",
+    "title": "Total Generalized Variation regularization closes the gap between neural-eld and classical methods in seismic travel-time tomography",
+    "authors": [
+      "Isao Kurosawa"
+    ],
+    "abstract": "Travel-time tomography forces a trade-off between mesh resolution and stability in which the regularizer choice dominates what can be recovered. We introduce MIMIR, a differentiable framework that represents the 2D velocity field as a Fourier-feature neural network, replacing the grid-based slowness vector with a continuous, infinitely differentiable function. Prior neural-field tomography has staircased smooth fields under total-variation (TV) priors or oscillated near interfaces under $L^2$ Laplacian smoothing. We adopt second-order total generalized variation (TGV$^2$) and parametrize its auxiliary vector field as a second neural network jointly optimized with the velocity field, eliminating the inner Chambolle-Pock primal-dual loop that classically dominates TGV computation. On three synthetic benchmarks (Gaussian, horizontally layered, curved-fault inspired by OpenFWI) using cross-well acquisition, 5% travel-time noise, and five seeds, MIMIR-TGV$^2$ ties a classical FMM-LSMR baseline with auto-tuned hyperparameters on the Gaussian ($p=0.134$, paired $t$-test) and significantly outperforms it on layered ($p<0.0001$, 44% RMSE reduction) and curved-fault ($p=0.0002$, 33% reduction). Replacing TGV$^2$ with TV degrades performance on Gaussian ($p=0.004$) and layered ($p=0.003$); curriculum-annealed TV improves Gaussian RMSE by only 5.4%, confirming that TV's staircase bias is intrinsic to the regularizer rather than a scheduling artifact. The results empirically validate the Bredies-Kunisch-Pock prediction that piecewise-affine priors are better suited to subsurface velocity recovery than piecewise-constant TV priors. We argue that the central design choice in physics-informed neural-field inversion is not the network architecture but the regularizer. The full pipeline reproduces in under one hour on consumer hardware.",
+    "published": "2026-05-11T04:13:52Z",
+    "updated": "2026-05-11T04:13:52Z",
+    "categories": [
+      "physics.geo-ph",
+      "cs.LG",
+      "math.NA"
+    ],
+    "primary_category": "physics.geo-ph",
+    "url": "https://arxiv.org/abs/2605.09960",
+    "pdf_url": "https://arxiv.org/pdf/2605.09960v1",
+    "doi": null
+  },
+  {
+    "arxiv_id": "2605.06918",
+    "arxiv_id_version": "2605.06918v1",
+    "title": "Generalising Travel Time Prediction To Varying Route Choices In Urban Networks",
+    "authors": [
+      "Łukasz Gorczyca",
+      "Kacper Drozd",
+      "Michał Bujak",
+      "Rafał Kucharski"
+    ],
+    "abstract": "Previous methods that predict system-wide travel time, predominantly grounded in graph neural networks, remain limited to typical and recurring demand patterns. While they successfully predict future congestion following daily commute, they inherently approximate a single demand realisation and fail to capture varying route choices. In this work, we propose a Generalised Travel Time Predictor (GenTTP) that successfully differentiates route choices and offers accurate flow and travel time predictions. Our framework learns to uncover complex spatiotemporal traffic patterns and microscopic relationships between route choices and the resulting travel times. This addresses a critical gap: the lack of travel time prediction models that generalise across varying route assignments, where the same demand can produce substantially different network-wide outcomes depending on how travellers are distributed over available paths.",
+    "published": "2026-05-07T20:29:08Z",
+    "updated": "2026-05-07T20:29:08Z",
+    "categories": [
+      "cs.MA",
+      "cs.LG"
+    ],
+    "primary_category": "cs.MA",
+    "url": "https://arxiv.org/abs/2605.06918",
+    "pdf_url": "https://arxiv.org/pdf/2605.06918v1",
+    "doi": null
+  },
+  {
+    "arxiv_id": "2602.19952",
+    "arxiv_id_version": "2602.19952v1",
+    "title": "A Bayesian Framework for Post-disruption Travel Time Prediction in Metro Networks",
+    "authors": [
+      "Shayan Nazemi",
+      "Aurélie Labbe",
+      "Stefan Steiner",
+      "Pratheepa Jeganathan",
+      "Martin Trépanier",
+      "Léo R. Belzile"
+    ],
+    "abstract": "Disruptions are an inherent feature of transportation systems, occurring unpredictably and with varying durations. Even after an incident is reported as resolved, disruptions can induce irregular train operations that generate substantial uncertainty in passenger waiting and travel times. Accurately forecasting post-disruption travel times therefore remains a critical challenge for transit operators and passenger information systems. This paper develops a Bayesian spatiotemporal modeling framework for post-disruption train travel times that explicitly captures train interactions, headway imbalance, and non-Gaussian distributional characteristics observed during recovery periods. The proposed model decomposes travel times into delay and journey components and incorporates a moving-average error structure to represent dependence between consecutive trains. Skew-normal and skew-$t$ distributions are employed to flexibly accommodate heteroskedasticity, skewness, and heavy-tailed behavior in post-disruption travel times. The framework is evaluated using high-resolution track-occupancy and disruption log data from the Montréal metro system, covering two lines in both travel directions. Empirical results indicate that post-disruption travel times exhibit pronounced distributional asymmetries that vary with traveled distance, as well as significant error dependence across trains. The proposed models consistently outperform baseline specifications in both point prediction accuracy and uncertainty quantification, with the skew-$t$ model demonstrating the most robust performance for longer journeys. These findings underscore the importance of incorporating both distributional flexibility and error dependence when forecasting post-disruption travel times in urban rail systems.",
+    "published": "2026-02-23T15:20:46Z",
+    "updated": "2026-02-23T15:20:46Z",
+    "categories": [
+      "stat.AP",
+      "stat.ME",
+      "stat.ML"
+    ],
+    "primary_category": "stat.AP",
+    "url": "https://arxiv.org/abs/2602.19952",
+    "pdf_url": "https://arxiv.org/pdf/2602.19952v1",
+    "doi": null
+  },
+  {
+    "arxiv_id": "2602.19351",
+    "arxiv_id_version": "2602.19351v1",
+    "title": "Network-Level Travel Time Prediction Considering The Effects of Weather and Seasonality",
+    "authors": [
+      "Yufei Ai",
+      "Yao Yu",
+      "Wenjing Pu",
+      "Lu Gao",
+      "Yihao Ren"
+    ],
+    "abstract": "Accurately predicting travel time information can be helpful for travelers. This study proposes a framework for predicting network-level travel time index (TTI) using machine learning models. A case study was performed on more than 50,000 TTI data collected from the Washington DC area over 6 years. The proposed approach is also able to identify the effects of weather and seasonality. The performances of the machine learning models were assessed and compared with each other. It was shown that the ridge regression model outperformed the other models in both short-term and long-term predictions.",
+    "published": "2026-02-22T21:59:30Z",
+    "updated": "2026-02-22T21:59:30Z",
+    "categories": [
+      "stat.AP"
+    ],
+    "primary_category": "stat.AP",
+    "url": "https://arxiv.org/abs/2602.19351",
+    "pdf_url": "https://arxiv.org/pdf/2602.19351v1",
+    "doi": null
+  },
+  {
+    "arxiv_id": "2602.16730",
+    "arxiv_id_version": "2602.16730v1",
+    "title": "MMCAformer: Macro-Micro Cross-Attention Transformer for Traffic Speed Prediction with Microscopic Connected Vehicle Driving Behavior",
+    "authors": [
+      "Lei Han",
+      "Mohamed Abdel-Aty",
+      "Younggun Kim",
+      "Yang-Jun Joo",
+      "Zubayer Islam"
+    ],
+    "abstract": "Accurate speed prediction is crucial for proactive traffic management to enhance traffic efficiency and safety. Existing studies have primarily relied on aggregated, macroscopic traffic flow data to predict future traffic trends, whereas road traffic dynamics are also influenced by individual, microscopic human driving behaviors. Recent Connected Vehicle (CV) data provide rich driving behavior features, offering new opportunities to incorporate these behavioral insights into speed prediction. To this end, we propose the Macro-Micro Cross-Attention Transformer (MMCAformer) to integrate CV data-based micro driving behavior features with macro traffic features for speed prediction. Specifically, MMCAformer employs self-attention to learn intrinsic dependencies in macro traffic flow and cross-attention to capture spatiotemporal interplays between macro traffic status and micro driving behavior. MMCAformer is optimized with a Student-t negative log-likelihood loss to provide point-wise speed prediction and estimate uncertainty. Experiments on four Florida freeways demonstrate the superior performance of the proposed MMCAformer compared to baselines. Compared with only using macro features, introducing micro driving behavior features not only enhances prediction accuracy (e.g., overall RMSE, MAE, and MAPE reduced by 9.0%, 6.9%, and 10.2%, respectively) but also shrinks model prediction uncertainty (e.g., mean predictive intervals decreased by 10.1-24.0% across the four freeways). Results reveal that hard braking and acceleration frequencies emerge as the most influential features. Such improvements are more pronounced under congested, low-speed traffic conditions.",
+    "published": "2026-02-17T19:51:45Z",
+    "updated": "2026-02-17T19:51:45Z",
+    "categories": [
+      "cs.LG"
+    ],
+    "primary_category": "cs.LG",
+    "url": "https://arxiv.org/abs/2602.16730",
+    "pdf_url": "https://arxiv.org/pdf/2602.16730v1",
+    "doi": null
+  },
+  {
+    "arxiv_id": "2602.15069",
+    "arxiv_id_version": "2602.15069v1",
+    "title": "Travel Time Prediction from Sparse Open Data",
+    "authors": [
+      "Geoff Boeing",
+      "Yuquan Zhou"
+    ],
+    "abstract": "Travel time prediction is central to transport geography and planning's accessibility analyses, sustainable transportation infrastructure provision, and active transportation interventions. However, calculating accurate travel times, especially for driving, requires either extensive technical capacity and bespoke data, or resources like the Google Maps API that quickly become prohibitively expensive to analyze thousands or millions of trips necessary for metropolitan-scale analyses. Such obstacles particularly challenge less-resourced researchers, practitioners, and community advocates. This article argues that a middle-ground is needed to provide reasonably accurate travel time predictions without extensive data or computing requirements. It introduces a free, open-source minimally-congested driving time prediction model with minimal cost, data, and computational requirements. It trains and tests this model using the Los Angeles, California urban area as a case study by calculating naive travel times from open data then developing a random forest model to predict travel times as a function of those naive times plus open data on turns and traffic controls. Validation shows that this interpretable machine learning method offers a superior middle-ground technique that balances reasonable accuracy with minimal resource requirements.",
+    "published": "2026-02-14T20:28:55Z",
+    "updated": "2026-02-14T20:28:55Z",
+    "categories": [
+      "physics.soc-ph",
+      "cs.CY",
+      "econ.GN"
+    ],
+    "primary_category": "physics.soc-ph",
+    "url": "https://arxiv.org/abs/2602.15069",
+    "pdf_url": "https://arxiv.org/pdf/2602.15069v1",
+    "doi": "10.1080/13658816.2026.2628193"
+  },
+  {
+    "arxiv_id": "2601.02943",
+    "arxiv_id_version": "2601.02943v1",
+    "title": "MixTTE: Multi-Level Mixture-of-Experts for Scalable and Adaptive Travel Time Estimation",
+    "authors": [
+      "Wenzhao Jiang",
+      "Jindong Han",
+      "Ruiqian Han",
+      "Hao Liu"
+    ],
+    "abstract": "Accurate Travel Time Estimation (TTE) is critical for ride-hailing platforms, where errors directly impact user experience and operational efficiency. While existing production systems excel at holistic route-level dependency modeling, they struggle to capture city-scale traffic dynamics and long-tail scenarios, leading to unreliable predictions in large urban networks. In this paper, we propose \\model, a scalable and adaptive framework that synergistically integrates link-level modeling with industrial route-level TTE systems. Specifically, we propose a spatio-temporal external attention module to capture global traffic dynamic dependencies across million-scale road networks efficiently. Moreover, we construct a stabilized graph mixture-of-experts network to handle heterogeneous traffic patterns while maintaining inference efficiency. Furthermore, an asynchronous incremental learning strategy is tailored to enable real-time and stable adaptation to dynamic traffic distribution shifts. Experiments on real-world datasets validate MixTTE significantly reduces prediction errors compared to seven baselines. MixTTE has been deployed in DiDi, substantially improving the accuracy and stability of the TTE service.",
+    "published": "2026-01-06T11:40:20Z",
+    "updated": "2026-01-06T11:40:20Z",
+    "categories": [
+      "cs.LG",
+      "cs.MA"
+    ],
+    "primary_category": "cs.LG",
+    "url": "https://arxiv.org/abs/2601.02943",
+    "pdf_url": "https://arxiv.org/pdf/2601.02943v1",
+    "doi": "10.1145/3770854.3783940"
+  },
+  {
+    "arxiv_id": "2512.19492",
+    "arxiv_id_version": "2512.19492v1",
+    "title": "Predicting coronal mass ejection travel times using enhanced model-guided machine learning",
+    "authors": [
+      "M. Lampani",
+      "M. Rossi",
+      "S. Guastavino",
+      "M. Piana",
+      "A. M. Massone"
+    ],
+    "abstract": "Coronal mass ejections (CMEs) are key drivers of space weather events, posing risks to both space-borne and ground-based systems. Accurate prediction of their arrival time at Earth is critical for impact mitigation. To this end, physics-informed artificial intelligence (AI) approaches have proven more effective than purely data-driven or physics-based methods, generally offering higher accuracy and better explainability than the former and lower computational cost than the latter. In this work, we propose a generalization of the physics-driven AI framework based on the classical drag-based model (DBM) by integrating the extended version of the drag-based model (EDBM). This enhancement allows us to include in the training process CME events whose interplanetary dynamics are incompatible with those assumed by the DBM. We achieve travel-time prediction accuracy comparable to state-of-the-art methods. We also perform a parametric robustness analysis, highlighting the stability of our approach under small variations in the drag coefficient. Furthermore, we propose a categorization of CMEs into speed regimes defined by the EDBM using a multiclass classification model based on logistic regression, which could be implemented in near-real-time operational space weather forecasting systems. The results show that the EDBM framework broadens the applicability of forecasting models while preserving good predictive accuracy.",
+    "published": "2025-12-22T15:45:51Z",
+    "updated": "2025-12-22T15:45:51Z",
+    "categories": [
+      "astro-ph.SR"
+    ],
+    "primary_category": "astro-ph.SR",
+    "url": "https://arxiv.org/abs/2512.19492",
+    "pdf_url": "https://arxiv.org/pdf/2512.19492v1",
+    "doi": null
+  },
+  {
+    "arxiv_id": "2509.12043",
+    "arxiv_id_version": "2509.12043v1",
+    "title": "Travel Time and Weather-Aware Traffic Forecasting in a Conformal Graph Neural Network Framework",
+    "authors": [
+      "Mayur Patil",
+      "Qadeer Ahmed",
+      "Shawn Midlam-Mohler"
+    ],
+    "abstract": "Traffic flow forecasting is essential for managing congestion, improving safety, and optimizing various transportation systems. However, it remains a prevailing challenge due to the stochastic nature of urban traffic and environmental factors. Better predictions require models capable of accommodating the traffic variability influenced by multiple dynamic and complex interdependent factors. In this work, we propose a Graph Neural Network (GNN) framework to address the stochasticity by leveraging adaptive adjacency matrices using log-normal distributions and Coefficient of Variation (CV) values to reflect real-world travel time variability. Additionally, weather factors such as temperature, wind speed, and precipitation adjust edge weights and enable GNN to capture evolving spatio-temporal dependencies across traffic stations. This enhancement over the static adjacency matrix allows the model to adapt effectively to traffic stochasticity and changing environmental conditions. Furthermore, we utilize the Adaptive Conformal Prediction (ACP) framework to provide reliable uncertainty quantification, achieving target coverage while maintaining acceptable prediction intervals. Experimental results demonstrate that the proposed model, in comparison with baseline methods, showed better prediction accuracy and uncertainty bounds. We, then, validate this method by constructing traffic scenarios in SUMO and applying Monte-Carlo simulation to derive a travel time distribution for a Vehicle Under Test (VUT) to reflect real-world variability. The simulated mean travel time of the VUT falls within the intervals defined by INRIX historical data, verifying the model's robustness.",
+    "published": "2025-09-15T15:25:43Z",
+    "updated": "2025-09-15T15:25:43Z",
+    "categories": [
+      "cs.LG"
+    ],
+    "primary_category": "cs.LG",
+    "url": "https://arxiv.org/abs/2509.12043",
+    "pdf_url": "https://arxiv.org/pdf/2509.12043v1",
+    "doi": null
+  },
+  {
+    "arxiv_id": "2507.00085",
+    "arxiv_id_version": "2507.00085v1",
+    "title": "A Joint Topology-Data Fusion Graph Network for Robust Traffic Speed Prediction with Data Anomalism",
+    "authors": [
+      "Ruiyuan Jiang",
+      "Dongyao Jia",
+      "Eng Gee Lim",
+      "Pengfei Fan",
+      "Yuli Zhang",
+      "Shangbo Wang"
+    ],
+    "abstract": "Accurate traffic prediction is essential for Intelligent Transportation Systems (ITS), yet current methods struggle with the inherent complexity and non-linearity of traffic dynamics, making it difficult to integrate spatial and temporal characteristics. Furthermore, existing approaches use static techniques to address non-stationary and anomalous historical data, which limits adaptability and undermines data smoothing. To overcome these challenges, we propose the Graph Fusion Enhanced Network (GFEN), an innovative framework for network-level traffic speed prediction. GFEN introduces a novel topological spatiotemporal graph fusion technique that meticulously extracts and merges spatial and temporal correlations from both data distribution and network topology using trainable methods, enabling the modeling of multi-scale spatiotemporal features. Additionally, GFEN employs a hybrid methodology combining a k-th order difference-based mathematical framework with an attention-based deep learning structure to adaptively smooth historical observations and dynamically mitigate data anomalies and non-stationarity. Extensive experiments demonstrate that GFEN surpasses state-of-the-art methods by approximately 6.3% in prediction accuracy and exhibits convergence rates nearly twice as fast as recent hybrid models, confirming its superior performance and potential to significantly enhance traffic prediction system efficiency.",
+    "published": "2025-06-30T06:33:47Z",
+    "updated": "2025-06-30T06:33:47Z",
+    "categories": [
+      "cs.LG",
+      "cs.AI"
+    ],
+    "primary_category": "cs.LG",
+    "url": "https://arxiv.org/abs/2507.00085",
+    "pdf_url": "https://arxiv.org/pdf/2507.00085v1",
+    "doi": null
+  },
+  {
+    "arxiv_id": "2505.16035",
+    "arxiv_id_version": "2505.16035v3",
+    "title": "Equivariant Eikonal Neural Networks: Grid-Free, Scalable Travel-Time Prediction on Homogeneous Spaces",
+    "authors": [
+      "Alejandro García-Castellanos",
+      "David R. Wessels",
+      "Nicky J. van den Berg",
+      "Remco Duits",
+      "Daniël M. Pelt",
+      "Erik J. Bekkers"
+    ],
+    "abstract": "We introduce Equivariant Neural Eikonal Solvers, a novel framework that integrates Equivariant Neural Fields (ENFs) with Neural Eikonal Solvers. Our approach employs a single neural field where a unified shared backbone is conditioned on signal-specific latent variables - represented as point clouds in a Lie group - to model diverse Eikonal solutions. The ENF integration ensures equivariant mapping from these latent representations to the solution field, delivering three key benefits: enhanced representation efficiency through weight-sharing, robust geometric grounding, and solution steerability. This steerability allows transformations applied to the latent point cloud to induce predictable, geometrically meaningful modifications in the resulting Eikonal solution. By coupling these steerable representations with Physics-Informed Neural Networks (PINNs), our framework accurately models Eikonal travel-time solutions while generalizing to arbitrary Riemannian manifolds with regular group actions. This includes homogeneous spaces such as Euclidean, position-orientation, spherical, and hyperbolic manifolds. We validate our approach through applications in seismic travel-time modeling of 2D, 3D, and spherical benchmark datasets. Experimental results demonstrate superior performance, scalability, adaptability, and user controllability compared to existing Neural Operator-based Eikonal solver methods.",
+    "published": "2025-05-21T21:29:18Z",
+    "updated": "2026-07-29T14:32:31Z",
+    "categories": [
+      "cs.LG",
+      "cs.AI"
+    ],
+    "primary_category": "cs.LG",
+    "url": "https://arxiv.org/abs/2505.16035",
+    "pdf_url": "https://arxiv.org/pdf/2505.16035v3",
+    "doi": null
+  },
+  {
+    "arxiv_id": "2504.04086",
+    "arxiv_id_version": "2504.04086v1",
+    "title": "Towards An Efficient and Effective En Route Travel Time Estimation Framework",
+    "authors": [
+      "Zekai Shen",
+      "Haitao Yuan",
+      "Xiaowei Mao",
+      "Congkang Lv",
+      "Shengnan Guo",
+      "Youfang Lin",
+      "Huaiyu Wan"
+    ],
+    "abstract": "En route travel time estimation (ER-TTE) focuses on predicting the travel time of the remaining route. Existing ER-TTE methods always make re-estimation which significantly hinders real-time performance, especially when faced with the computational demands of simultaneous user requests. This results in delays and reduced responsiveness in ER-TTE services. We propose a general efficient framework U-ERTTE combining an Uncertainty-Guided Decision mechanism (UGD) and Fine-Tuning with Meta-Learning (FTML) to address these challenges. UGD quantifies the uncertainty and provides confidence intervals for the entire route. It selectively re-estimates only when the actual travel time deviates from the predicted confidence intervals, thereby optimizing the efficiency of ER-TTE. To ensure the accuracy of confidence intervals and accurate predictions that need to re-estimate, FTML is employed to train the model, enabling it to learn general driving patterns and specific features to adapt to specific tasks. Extensive experiments on two large-scale real datasets demonstrate that the U-ERTTE framework significantly enhances inference speed and throughput while maintaining high effectiveness. Our code is available at https://github.com/shenzekai/U-ERTTE",
+    "published": "2025-04-05T07:15:26Z",
+    "updated": "2025-04-05T07:15:26Z",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "url": "https://arxiv.org/abs/2504.04086",
+    "pdf_url": "https://arxiv.org/pdf/2504.04086v1",
+    "doi": null
+  },
+  {
+    "arxiv_id": "2503.04062",
+    "arxiv_id_version": "2503.04062v1",
+    "title": "A Robust and Distribution-Fitting-Free Estimation Approach of Travel Time Percentile Function based on L-moments",
+    "authors": [
+      "Ruiya Chen",
+      "Xiangdong Xu",
+      "Jianqiang Li"
+    ],
+    "abstract": "Travel time is one of the key indicators monitored by intelligent transportation systems, helping the systems to gain real-time insights into traffic situations, predict congestion, and identify network bottlenecks. Travel time exhibits variability, and thus suitable probability distributions are necessary to accurately capture full information of travel time variability. Considering the potential issues of insufficient sample size and the disturbance of outliers in actual observations, as well as the heterogeneity of travel time distributions, we propose a robust and distribution-fitting-free estimation approach of travel time percentile function using L-moments based Normal-Polynomial Transformation. We examine the proposed approach from perspectives of validity, robustness, and stability based on both theoretical probability distributions and real data. The results indicate that the proposed approach exhibits high estimation validity, accuracy and low volatility in dealing with outliers, even in scenarios with small sample sizes.",
+    "published": "2025-03-06T03:37:43Z",
+    "updated": "2025-03-06T03:37:43Z",
+    "categories": [
+      "stat.AP"
+    ],
+    "primary_category": "stat.AP",
+    "url": "https://arxiv.org/abs/2503.04062",
+    "pdf_url": "https://arxiv.org/pdf/2503.04062v1",
+    "doi": null
+  },
+  {
+    "arxiv_id": "2501.15493",
+    "arxiv_id_version": "2501.15493v1",
+    "title": "RLER-TTE: An Efficient and Effective Framework for En Route Travel Time Estimation with Reinforcement Learning",
+    "authors": [
+      "Zhihan Zheng",
+      "Haitao Yuan",
+      "Minxiao Chen",
+      "Shangguang Wang"
+    ],
+    "abstract": "En Route Travel Time Estimation (ER-TTE) aims to learn driving patterns from traveled routes to achieve rapid and accurate real-time predictions. However, existing methods ignore the complexity and dynamism of real-world traffic systems, resulting in significant gaps in efficiency and accuracy in real-time scenarios. Addressing this issue is a critical yet challenging task. This paper proposes a novel framework that redefines the implementation path of ER-TTE to achieve highly efficient and effective predictions. Firstly, we introduce a novel pipeline consisting of a Decision Maker and a Predictor to rectify the inefficient prediction strategies of current methods. The Decision Maker performs efficient real-time decisions to determine whether the high-complexity prediction model in the Predictor needs to be invoked, and the Predictor recalculates the travel time or infers from historical prediction results based on these decisions. Next, to tackle the dynamic and uncertain real-time scenarios, we model the online decision-making problem as a Markov decision process and design an intelligent agent based on reinforcement learning for autonomous decision-making. Moreover, to fully exploit the spatio-temporal correlation between online data and offline data, we meticulously design feature representation and encoding techniques based on the attention mechanism. Finally, to improve the flawed training and evaluation strategies of existing methods, we propose an end-to-end training and evaluation approach, incorporating curriculum learning strategies to manage spatio-temporal data for more advanced training algorithms. Extensive evaluations on three real-world datasets confirm that our method significantly outperforms state-of-the-art solutions in both accuracy and efficiency.",
+    "published": "2025-01-26T11:49:34Z",
+    "updated": "2025-01-26T11:49:34Z",
+    "categories": [
+      "cs.LG"
+    ],
+    "primary_category": "cs.LG",
+    "url": "https://arxiv.org/abs/2501.15493",
+    "pdf_url": "https://arxiv.org/pdf/2501.15493v1",
+    "doi": null
+  },
+  {
+    "arxiv_id": "2412.11095",
+    "arxiv_id_version": "2412.11095v1",
+    "title": "Dynamic Graph Attention Networks for Travel Time Distribution Prediction in Urban Arterial Roads",
+    "authors": [
+      "Nooshin Yousefzadeh",
+      "Rahul Sengupta",
+      "Sanjay Ranka"
+    ],
+    "abstract": "Effective congestion management along signalized corridors is essential for improving productivity and reducing costs, with arterial travel time serving as a key performance metric. Traditional approaches, such as Coordinated Signal Timing and Adaptive Traffic Control Systems, often lack scalability and generalizability across diverse urban layouts. We propose Fusion-based Dynamic Graph Neural Networks (FDGNN), a structured framework for simultaneous modeling of travel time distributions in both directions along arterial corridors. FDGNN utilizes attentional graph convolution on dynamic, bidirectional graphs and integrates fusion techniques to capture evolving spatiotemporal traffic dynamics. The framework is trained on extensive hours of simulation data and utilizes GPU computation to ensure scalability. The results demonstrate that our framework can efficiently and accurately model travel time as a normal distribution on arterial roads leveraging a unique dynamic graph representation of corridor traffic states. This representation integrates sequential traffic signal timing plans, local driving behaviors, temporal turning movement counts, and ingress traffic volumes, even when aggregated over intervals as short as a single cycle length. The results demonstrate resilience to effective traffic variations, including cycle lengths, green time percentages, traffic density, and counterfactual routes. Results further confirm its stability under varying conditions at different intersections. This framework supports dynamic signal timing, enhances congestion management, and improves travel time reliability in real-world applications.",
+    "published": "2024-12-15T07:30:01Z",
+    "updated": "2024-12-15T07:30:01Z",
+    "categories": [
+      "cs.LG"
+    ],
+    "primary_category": "cs.LG",
+    "url": "https://arxiv.org/abs/2412.11095",
+    "pdf_url": "https://arxiv.org/pdf/2412.11095v1",
+    "doi": null
+  },
+  {
+    "arxiv_id": "2408.12809",
+    "arxiv_id_version": "2408.12809v2",
+    "title": "DutyTTE: Deciphering Uncertainty in Origin-Destination Travel Time Estimation",
+    "authors": [
+      "Xiaowei Mao",
+      "Yan Lin",
+      "Shengnan Guo",
+      "Yubin Chen",
+      "Xingyu Xian",
+      "Haomin Wen",
+      "Qisen Xu",
+      "Youfang Lin",
+      "Huaiyu Wan"
+    ],
+    "abstract": "Uncertainty quantification in travel time estimation (TTE) aims to estimate the confidence interval for travel time, given the origin (O), destination (D), and departure time (T). Accurately quantifying this uncertainty requires generating the most likely path and assessing travel time uncertainty along the path. This involves two main challenges: 1) Predicting a path that aligns with the ground truth, and 2) modeling the impact of travel time in each segment on overall uncertainty under varying conditions. We propose DutyTTE to address these challenges. For the first challenge, we introduce a deep reinforcement learning method to improve alignment between the predicted path and the ground truth, providing more accurate travel time information from road segments to improve TTE. For the second challenge, we propose a mixture of experts guided uncertainty quantification mechanism to better capture travel time uncertainty for each segment under varying contexts. Additionally, we calibrate our results using Hoeffding's upper-confidence bound to provide statistical guarantees for the estimated confidence intervals. Extensive experiments on two real-world datasets demonstrate the superiority of our proposed method.",
+    "published": "2024-08-23T03:06:04Z",
+    "updated": "2025-01-20T08:12:51Z",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "url": "https://arxiv.org/abs/2408.12809",
+    "pdf_url": "https://arxiv.org/pdf/2408.12809v2",
+    "doi": null
+  },
+  {
+    "arxiv_id": "2407.17703",
+    "arxiv_id_version": "2407.17703v2",
+    "title": "Context-aware knowledge graph framework for traffic speed forecasting using graph neural network",
+    "authors": [
+      "Yatao Zhang",
+      "Yi Wang",
+      "Song Gao",
+      "Martin Raubal"
+    ],
+    "abstract": "Human mobility is intricately influenced by urban contexts spatially and temporally, constituting essential domain knowledge in understanding traffic systems. While existing traffic forecasting models primarily rely on raw traffic data and advanced deep learning techniques, incorporating contextual information remains underexplored due to insufficient integration frameworks and the complexity of urban contexts. This study proposes a novel context-aware knowledge graph (CKG) framework to enhance traffic speed forecasting by effectively modeling spatial and temporal contexts. Employing a relation-dependent integration strategy, the framework generates context-aware representations from the spatial and temporal units of CKG to capture spatio-temporal dependencies of urban contexts. A CKG-GNN model, combining the CKG, dual-view multi-head self-attention (MHSA), and graph neural network (GNN), is then designed to predict traffic speed utilizing these context-aware representations. Our experiments demonstrate that CKG's configuration significantly influences embedding performance, with ComplEx and KG2E emerging as optimal for embedding spatial and temporal units, respectively. The CKG-GNN model establishes a benchmark for 10-120 min predictions, achieving average MAE, MAPE, and RMSE of $3.46\\pm0.01$, $14.76\\pm0.09\\%$, and $5.08\\pm0.01$, respectively. Compared to the baseline DCRNN model, integrating the spatial unit improves the MAE by 0.04 and the temporal unit by 0.13, while integrating both units further reduces it by 0.18. The dual-view MHSA analysis reveals the crucial role of relation-dependent features from the context-based view and the model's ability to prioritize recent time slots in prediction from the sequence-based view. Overall, this study underscores the importance of merging context-aware knowledge graphs with graph neural networks to improve traffic forecasting.",
+    "published": "2024-07-25T01:52:12Z",
+    "updated": "2024-12-21T08:12:02Z",
+    "categories": [
+      "cs.LG",
+      "physics.soc-ph"
+    ],
+    "primary_category": "cs.LG",
+    "url": "https://arxiv.org/abs/2407.17703",
+    "pdf_url": "https://arxiv.org/pdf/2407.17703v2",
+    "doi": null
+  },
+  {
+    "arxiv_id": "2407.12238",
+    "arxiv_id_version": "2407.12238v2",
+    "title": "Urban Traffic Forecasting with Integrated Travel Time and Data Availability in a Conformal Graph Neural Network Framework",
+    "authors": [
+      "Mayur Patil",
+      "Qadeer Ahmed",
+      "Shawn Midlam-Mohler"
+    ],
+    "abstract": "Traffic flow prediction is a big challenge for transportation authorities as it helps plan and develop better infrastructure. State-of-the-art models often struggle to consider the data in the best way possible, as well as intrinsic uncertainties and the actual physics of the traffic. In this study, we propose a novel framework to incorporate travel times between stations into a weighted adjacency matrix of a Graph Neural Network (GNN) architecture with information from traffic stations based on their data availability. To handle uncertainty, we utilized the Adaptive Conformal Prediction (ACP) method that adjusts prediction intervals based on real-time validation residuals. To validate our results, we model a microscopic traffic scenario and perform a Monte-Carlo simulation to get a travel time distribution for a Vehicle Under Test (VUT), and this distribution is compared against the real-world data. Experiments show that the proposed model outperformed the next-best model by approximately 24% in MAE and 8% in RMSE and validation showed the simulated travel time closely matches the 95th percentile of the observed travel time value.",
+    "published": "2024-07-17T01:11:07Z",
+    "updated": "2024-10-03T04:46:36Z",
+    "categories": [
+      "cs.LG"
+    ],
+    "primary_category": "cs.LG",
+    "url": "https://arxiv.org/abs/2407.12238",
+    "pdf_url": "https://arxiv.org/pdf/2407.12238v2",
+    "doi": null
+  },
+  {
+    "arxiv_id": "2407.07030",
+    "arxiv_id_version": "2407.07030v1",
+    "title": "Trajectory Data Mining and Trip Travel Time Prediction on Specific Roads",
+    "authors": [
+      "Muhammad Awais Amin",
+      "Jawad-Ur-Rehman Chughtai",
+      "Waqar Ahmad",
+      "Waqas Haider Bangyal",
+      "Irfan Ul Haq"
+    ],
+    "abstract": "Predicting a trip's travel time is essential for route planning and navigation applications. The majority of research is based on international data that does not apply to Pakistan's road conditions. We designed a complete pipeline for mining trajectories from sensors data. On this data, we employed state-of-the-art approaches, including a shallow artificial neural network, a deep multi-layered perceptron, and a long-short-term memory, to explore the issue of travel time prediction on frequent routes. The experimental results demonstrate an average prediction error ranging from 30 seconds to 1.2 minutes on trips lasting 10 minutes to 60 minutes on six most frequent routes in regions of Islamabad, Pakistan.",
+    "published": "2024-07-09T16:50:15Z",
+    "updated": "2024-07-09T16:50:15Z",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "url": "https://arxiv.org/abs/2407.07030",
+    "pdf_url": "https://arxiv.org/pdf/2407.07030v1",
+    "doi": "10.1109/ICECT61618.2024.10581284"
+  },
+  {
+    "arxiv_id": "2406.16992",
+    "arxiv_id_version": "2406.16992v1",
+    "title": "Make Graph Neural Networks Great Again: A Generic Integration Paradigm of Topology-Free Patterns for Traffic Speed Prediction",
+    "authors": [
+      "Yicheng Zhou",
+      "Pengfei Wang",
+      "Hao Dong",
+      "Denghui Zhang",
+      "Dingqi Yang",
+      "Yanjie Fu",
+      "Pengyang Wang"
+    ],
+    "abstract": "Urban traffic speed prediction aims to estimate the future traffic speed for improving urban transportation services. Enormous efforts have been made to exploit Graph Neural Networks (GNNs) for modeling spatial correlations and temporal dependencies of traffic speed evolving patterns, regularized by graph topology.While achieving promising results, current traffic speed prediction methods still suffer from ignoring topology-free patterns, which cannot be captured by GNNs. To tackle this challenge, we propose a generic model for enabling the current GNN-based methods to preserve topology-free patterns. Specifically, we first develop a Dual Cross-Scale Transformer (DCST) architecture, including a Spatial Transformer and a Temporal Transformer, to preserve the cross-scale topology-free patterns and associated dynamics, respectively. Then, to further integrate both topology-regularized/-free patterns, we propose a distillation-style learning framework, in which the existing GNN-based methods are considered as the teacher model, and the proposed DCST architecture is considered as the student model. The teacher model would inject the learned topology-regularized patterns into the student model for integrating topology-free patterns. The extensive experimental results demonstrated the effectiveness of our methods.",
+    "published": "2024-06-24T07:32:58Z",
+    "updated": "2024-06-24T07:32:58Z",
+    "categories": [
+      "cs.LG",
+      "cs.AI"
+    ],
+    "primary_category": "cs.LG",
+    "url": "https://arxiv.org/abs/2406.16992",
+    "pdf_url": "https://arxiv.org/pdf/2406.16992v1",
+    "doi": null
+  },
+  {
+    "arxiv_id": "2406.12923",
+    "arxiv_id_version": "2406.12923v1",
+    "title": "Interpretable Cascading Mixture-of-Experts for Urban Traffic Congestion Prediction",
+    "authors": [
+      "Wenzhao Jiang",
+      "Jindong Han",
+      "Hao Liu",
+      "Tao Tao",
+      "Naiqiang Tan",
+      "Hui Xiong"
+    ],
+    "abstract": "Rapid urbanization has significantly escalated traffic congestion, underscoring the need for advanced congestion prediction services to bolster intelligent transportation systems. As one of the world's largest ride-hailing platforms, DiDi places great emphasis on the accuracy of congestion prediction to enhance the effectiveness and reliability of their real-time services, such as travel time estimation and route planning. Despite numerous efforts have been made on congestion prediction, most of them fall short in handling heterogeneous and dynamic spatio-temporal dependencies (e.g., periodic and non-periodic congestions), particularly in the presence of noisy and incomplete traffic data. In this paper, we introduce a Congestion Prediction Mixture-of-Experts, CP-MoE, to address the above challenges. We first propose a sparsely-gated Mixture of Adaptive Graph Learners (MAGLs) with congestion-aware inductive biases to improve the model capacity for efficiently capturing complex spatio-temporal dependencies in varying traffic scenarios. Then, we devise two specialized experts to help identify stable trends and periodic patterns within the traffic data, respectively. By cascading these experts with MAGLs, CP-MoE delivers congestion predictions in a more robust and interpretable manner. Furthermore, an ordinal regression strategy is adopted to facilitate effective collaboration among diverse experts. Extensive experiments on real-world datasets demonstrate the superiority of our proposed method compared with state-of-the-art spatio-temporal prediction models. More importantly, CP-MoE has been deployed in DiDi to improve the accuracy and reliability of the travel time estimation system.",
+    "published": "2024-06-14T12:57:17Z",
+    "updated": "2024-06-14T12:57:17Z",
+    "categories": [
+      "cs.LG",
+      "cs.MA"
+    ],
+    "primary_category": "cs.LG",
+    "url": "https://arxiv.org/abs/2406.12923",
+    "pdf_url": "https://arxiv.org/pdf/2406.12923v1",
+    "doi": null
+  },
+  {
+    "arxiv_id": "2405.06080",
+    "arxiv_id_version": "2405.06080v2",
+    "title": "Scalable Learning of Segment-Level Traffic Congestion Functions",
+    "authors": [
+      "Shushman Choudhury",
+      "Abdul Rahman Kreidieh",
+      "Iveel Tsogsuren",
+      "Neha Arora",
+      "Carolina Osorio",
+      "Alexandre Bayen"
+    ],
+    "abstract": "We propose and study a data-driven framework for identifying traffic congestion functions (numerical relationships between observations of traffic variables) at global scale and segment-level granularity. In contrast to methods that estimate a separate set of parameters for each roadway, ours learns a single black-box function over all roadways in a metropolitan area. First, we pool traffic data from all segments into one dataset, combining static attributes with dynamic time-dependent features. Second, we train a feed-forward neural network on this dataset, which we can then use on any segment in the area. We evaluate how well our framework identifies congestion functions on observed segments and how it generalizes to unobserved segments and predicts segment attributes on a large dataset covering multiple cities worldwide. For identification error on observed segments, our single data-driven congestion function compares favorably to segment-specific model-based functions on highway roads, but has room to improve on arterial roads. For generalization, our approach shows strong performance across cities and road types: both on unobserved segments in the same city and on zero-shot transfer learning between cities. Finally, for predicting segment attributes, we find that our approach can approximate critical densities for individual segments using their static properties.",
+    "published": "2024-05-09T20:12:46Z",
+    "updated": "2024-09-25T16:50:55Z",
+    "categories": [
+      "cs.LG"
+    ],
+    "primary_category": "cs.LG",
+    "url": "https://arxiv.org/abs/2405.06080",
+    "pdf_url": "https://arxiv.org/pdf/2405.06080v2",
+    "doi": null
+  },
+  {
+    "arxiv_id": "2404.13853",
+    "arxiv_id_version": "2404.13853v1",
+    "title": "ICST-DNET: An Interpretable Causal Spatio-Temporal Diffusion Network for Traffic Speed Prediction",
+    "authors": [
+      "Yi Rong",
+      "Yingchi Mao",
+      "Yinqiu Liu",
+      "Ling Chen",
+      "Xiaoming He",
+      "Dusit Niyato"
+    ],
+    "abstract": "Traffic speed prediction is significant for intelligent navigation and congestion alleviation. However, making accurate predictions is challenging due to three factors: 1) traffic diffusion, i.e., the spatial and temporal causality existing between the traffic conditions of multiple neighboring roads, 2) the poor interpretability of traffic data with complicated spatio-temporal correlations, and 3) the latent pattern of traffic speed fluctuations over time, such as morning and evening rush. Jointly considering these factors, in this paper, we present a novel architecture for traffic speed prediction, called Interpretable Causal Spatio-Temporal Diffusion Network (ICST-DNET). Specifically, ICST-DENT consists of three parts, namely the Spatio-Temporal Causality Learning (STCL), Causal Graph Generation (CGG), and Speed Fluctuation Pattern Recognition (SFPR) modules. First, to model the traffic diffusion within road networks, an STCL module is proposed to capture both the temporal causality on each individual road and the spatial causality in each road pair. The CGG module is then developed based on STCL to enhance the interpretability of the traffic diffusion procedure from the temporal and spatial perspectives. Specifically, a time causality matrix is generated to explain the temporal causality between each road's historical and future traffic conditions. For spatial causality, we utilize causal graphs to visualize the diffusion process in road pairs. Finally, to adapt to traffic speed fluctuations in different scenarios, we design a personalized SFPR module to select the historical timesteps with strong influences for learning the pattern of traffic speed fluctuations. Extensive experimental results prove that ICST-DNET can outperform all existing baselines, as evidenced by the higher prediction accuracy, ability to explain causality, and adaptability to different scenarios.",
+    "published": "2024-04-22T03:35:19Z",
+    "updated": "2024-04-22T03:35:19Z",
+    "categories": [
+      "cs.LG",
+      "cs.NI"
+    ],
+    "primary_category": "cs.LG",
+    "url": "https://arxiv.org/abs/2404.13853",
+    "pdf_url": "https://arxiv.org/pdf/2404.13853v1",
+    "doi": null
+  },
+  {
+    "arxiv_id": "2404.08838",
+    "arxiv_id_version": "2404.08838v13",
+    "title": "Predicting Traffic Congestion at Urban Intersections Using Data-Driven Modeling",
+    "authors": [
+      "Tara Kelly",
+      "Jessica Gupta"
+    ],
+    "abstract": "Traffic congestion at intersections is a significant issue in urban areas, leading to increased commute times, safety hazards, and operational inefficiencies. This study aims to develop a predictive model for congestion at intersections in major U.S. cities, utilizing a dataset of trip-logging metrics from commercial vehicles across 4,800 intersections. The dataset encompasses 27 features, including intersection coordinates, street names, time of day, and traffic metrics (Kashyap et al., 2019). Additional features, such as rainfall/snowfall percentage, distance from downtown and outskirts, and road types, were incorporated to enhance the model's predictive power. The methodology involves data exploration, feature transformation, and handling missing values through low-rank models and label encoding. The proposed model has the potential to assist city planners and governments in anticipating traffic hot spots, optimizing operations, and identifying infrastructure challenges.",
+    "published": "2024-04-12T22:53:41Z",
+    "updated": "2024-11-27T18:32:25Z",
+    "categories": [
+      "cs.LG"
+    ],
+    "primary_category": "cs.LG",
+    "url": "https://arxiv.org/abs/2404.08838",
+    "pdf_url": "https://arxiv.org/pdf/2404.08838v13",
+    "doi": null
+  },
+  {
+    "arxiv_id": "2401.17387",
+    "arxiv_id_version": "2401.17387v1",
+    "title": "Conditional forecasting of bus travel time and passenger occupancy with Bayesian Markov regime-switching vector autoregression",
+    "authors": [
+      "Xiaoxu Chen",
+      "Zhanhong Cheng",
+      "Alexandra M. Schmidt",
+      "Lijun Sun"
+    ],
+    "abstract": "Accurately forecasting bus travel time and passenger occupancy with uncertainty is essential for both travelers and transit agencies/operators. However, existing approaches to forecasting bus travel time and passenger occupancy mainly rely on deterministic models, providing only point estimates. In this paper, we develop a Bayesian Markov regime-switching vector autoregressive model to jointly forecast both bus travel time and passenger occupancy with uncertainty. The proposed approach naturally captures the intricate interactions among adjacent buses and adapts to the multimodality and skewness of real-world bus travel time and passenger occupancy observations. We develop an efficient Markov chain Monte Carlo (MCMC) sampling algorithm to approximate the resultant joint posterior distribution of the parameter vector. With this framework, the estimation of downstream bus travel time and passenger occupancy is transformed into a multivariate time series forecasting problem conditional on partially observed outcomes. Experimental validation using real-world data demonstrates the superiority of our proposed model in terms of both predictive means and uncertainty quantification compared to the Bayesian Gaussian mixture model.",
+    "published": "2024-01-30T19:11:14Z",
+    "updated": "2024-01-30T19:11:14Z",
+    "categories": [
+      "stat.AP"
+    ],
+    "primary_category": "stat.AP",
+    "url": "https://arxiv.org/abs/2401.17387",
+    "pdf_url": "https://arxiv.org/pdf/2401.17387v1",
+    "doi": "10.1016/j.trb.2024.103147"
+  },
+  {
+    "arxiv_id": "2311.08635",
+    "arxiv_id_version": "2311.08635v1",
+    "title": "Spatio-Temporal Graph Neural Point Process for Traffic Congestion Event Prediction",
+    "authors": [
+      "Guangyin Jin",
+      "Lingbo Liu",
+      "Fuxian Li",
+      "Jincai Huang"
+    ],
+    "abstract": "Traffic congestion event prediction is an important yet challenging task in intelligent transportation systems. Many existing works about traffic prediction integrate various temporal encoders and graph convolution networks (GCNs), called spatio-temporal graph-based neural networks, which focus on predicting dense variables such as flow, speed and demand in time snapshots, but they can hardly forecast the traffic congestion events that are sparsely distributed on the continuous time axis. In recent years, neural point process (NPP) has emerged as an appropriate framework for event prediction in continuous time scenarios. However, most conventional works about NPP cannot model the complex spatio-temporal dependencies and congestion evolution patterns. To address these limitations, we propose a spatio-temporal graph neural point process framework, named STGNPP for traffic congestion event prediction. Specifically, we first design the spatio-temporal graph learning module to fully capture the long-range spatio-temporal dependencies from the historical traffic state data along with the road network. The extracted spatio-temporal hidden representation and congestion event information are then fed into a continuous gated recurrent unit to model the congestion evolution patterns. In particular, to fully exploit the periodic information, we also improve the intensity function calculation of the point process with a periodic gated mechanism. Finally, our model simultaneously predicts the occurrence time and duration of the next congestion. Extensive experiments on two real-world datasets demonstrate that our method achieves superior performance in comparison to existing state-of-the-art approaches.",
+    "published": "2023-11-15T01:22:47Z",
+    "updated": "2023-11-15T01:22:47Z",
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "cs.SI"
+    ],
+    "primary_category": "cs.LG",
+    "url": "https://arxiv.org/abs/2311.08635",
+    "pdf_url": "https://arxiv.org/pdf/2311.08635v1",
+    "doi": "10.1609/aaai.v37i12.26669"
+  },
+  {
+    "arxiv_id": "2305.10057",
+    "arxiv_id_version": "2305.10057v1",
+    "title": "Physics-driven machine learning for the prediction of coronal mass ejections' travel times",
+    "authors": [
+      "Sabrina Guastavino",
+      "Valentina Candiani",
+      "Alessandro Bemporad",
+      "Francesco Marchetti",
+      "Federico Benvenuto",
+      "Anna Maria Massone",
+      "Roberto Susino",
+      "Daniele Telloni",
+      "Silvano Fineschi",
+      "Michele Piana"
+    ],
+    "abstract": "Coronal Mass Ejections (CMEs) correspond to dramatic expulsions of plasma and magnetic field from the solar corona into the heliosphere. CMEs are scientifically relevant because they are involved in the physical mechanisms characterizing the active Sun. However, more recently CMEs have attracted attention for their impact on space weather, as they are correlated to geomagnetic storms and may induce the generation of Solar Energetic Particles streams. In this space weather framework, the present paper introduces a physics-driven artificial intelligence (AI) approach to the prediction of CMEs travel time, in which the deterministic drag-based model is exploited to improve the training phase of a cascade of two neural networks fed with both remote sensing and in-situ data. This study shows that the use of physical information in the AI architecture significantly improves both the accuracy and the robustness of the travel time prediction.",
+    "published": "2023-05-17T08:53:29Z",
+    "updated": "2023-05-17T08:53:29Z",
+    "categories": [
+      "astro-ph.SR",
+      "astro-ph.IM",
+      "cs.LG",
+      "physics.space-ph"
+    ],
+    "primary_category": "astro-ph.SR",
+    "url": "https://arxiv.org/abs/2305.10057",
+    "pdf_url": "https://arxiv.org/pdf/2305.10057v1",
+    "doi": null
+  },
+  {
+    "arxiv_id": "2304.10961",
+    "arxiv_id_version": "2304.10961v1",
+    "title": "An Incomplete Tensor Tucker decomposition based Traffic Speed Prediction Method",
+    "authors": [
+      "Jiajia Mi"
+    ],
+    "abstract": "In intelligent transport systems, it is common and inevitable with missing data. While complete and valid traffic speed data is of great importance to intelligent transportation systems. A latent factorization-of-tensors (LFT) model is one of the most attractive approaches to solve missing traffic data recovery due to its well-scalability. A LFT model achieves optimization usually via a stochastic gradient descent (SGD) solver, however, the SGD-based LFT suffers from slow convergence. To deal with this issue, this work integrates the unique advantages of the proportional-integral-derivative (PID) controller into a Tucker decomposition based LFT model. It adopts two-fold ideas: a) adopting tucker decomposition to build a LFT model for achieving a better recovery accuracy. b) taking the adjusted instance error based on the PID control theory into the SGD solver to effectively improve convergence rate. Our experimental studies on two major city traffic road speed datasets show that the proposed model achieves significant efficiency gain and highly competitive prediction accuracy.",
+    "published": "2023-04-21T13:59:28Z",
+    "updated": "2023-04-21T13:59:28Z",
+    "categories": [
+      "cs.LG"
+    ],
+    "primary_category": "cs.LG",
+    "url": "https://arxiv.org/abs/2304.10961",
+    "pdf_url": "https://arxiv.org/pdf/2304.10961v1",
+    "doi": null
+  },
+  {
+    "arxiv_id": "2304.00192",
+    "arxiv_id_version": "2304.00192v2",
+    "title": "Leveraging Neo4j and deep learning for traffic congestion simulation & optimization",
+    "authors": [
+      "Shyam Pratap Singh",
+      "Arshad Ali Khan",
+      "Riad Souissi",
+      "Syed Adnan Yusuf"
+    ],
+    "abstract": "Traffic congestion has been a major challenge in many urban road networks. Extensive research studies have been conducted to highlight traffic-related congestion and address the issue using data-driven approaches. Currently, most traffic congestion analyses are done using simulation software that offers limited insight due to the limitations in the tools and utilities being used to render various traffic congestion scenarios. All that impacts the formulation of custom business problems which vary from place to place and country to country. By exploiting the power of the knowledge graph, we model a traffic congestion problem into the Neo4j graph and then use the load balancing, optimization algorithm to identify congestion-free road networks. We also show how traffic propagates backward in case of congestion or accident scenarios and its overall impact on other segments of the roads. We also train a sequential RNN-LSTM (Long Short-Term Memory) deep learning model on the real-time traffic data to assess the accuracy of simulation results based on a road-specific congestion. Our results show that graph-based traffic simulation, supplemented by AI ML-based traffic prediction can be more effective in estimating the congestion level in a road network.",
+    "published": "2023-04-01T01:23:10Z",
+    "updated": "2023-12-09T06:39:02Z",
+    "categories": [
+      "cs.AI",
+      "cs.LG"
+    ],
+    "primary_category": "cs.AI",
+    "url": "https://arxiv.org/abs/2304.00192",
+    "pdf_url": "https://arxiv.org/pdf/2304.00192v2",
+    "doi": null
+  },
+  {
+    "arxiv_id": "2212.12932",
+    "arxiv_id_version": "2212.12932v1",
+    "title": "Boosting Urban Traffic Speed Prediction via Integrating Implicit Spatial Correlations",
+    "authors": [
+      "Dongkun Wang",
+      "Wei Fan",
+      "Pengyang Wang",
+      "Pengfei Wang",
+      "Dongjie Wang",
+      "Denghui Zhang",
+      "Yanjie Fu"
+    ],
+    "abstract": "Urban traffic speed prediction aims to estimate the future traffic speed for improving the urban transportation services. Enormous efforts have been made on exploiting spatial correlations and temporal dependencies of traffic speed evolving patterns by leveraging explicit spatial relations (geographical proximity) through pre-defined geographical structures ({\\it e.g.}, region grids or road networks). While achieving promising results, current traffic speed prediction methods still suffer from ignoring implicit spatial correlations (interactions), which cannot be captured by grid/graph convolutions. To tackle the challenge, we propose a generic model for enabling the current traffic speed prediction methods to preserve implicit spatial correlations. Specifically, we first develop a Dual-Transformer architecture, including a Spatial Transformer and a Temporal Transformer. The Spatial Transformer automatically learns the implicit spatial correlations across the road segments beyond the boundary of geographical structures, while the Temporal Transformer aims to capture the dynamic changing patterns of the implicit spatial correlations. Then, to further integrate both explicit and implicit spatial correlations, we propose a distillation-style learning framework, in which the existing traffic speed prediction methods are considered as the teacher model, and the proposed Dual-Transformer architectures are considered as the student model. The extensive experiments over three real-world datasets indicate significant improvements of our proposed framework over the existing methods.",
+    "published": "2022-12-25T16:52:24Z",
+    "updated": "2022-12-25T16:52:24Z",
+    "categories": [
+      "cs.LG"
+    ],
+    "primary_category": "cs.LG",
+    "url": "https://arxiv.org/abs/2212.12932",
+    "pdf_url": "https://arxiv.org/pdf/2212.12932v1",
+    "doi": null
+  },
+  {
+    "arxiv_id": "2211.12322",
+    "arxiv_id_version": "2211.12322v3",
+    "title": "Computer Vision for Transit Travel Time Prediction: An End-to-End Framework Using Roadside Urban Imagery",
+    "authors": [
+      "Awad Abdelhalim",
+      "Jinhua Zhao"
+    ],
+    "abstract": "Accurate travel time estimation is paramount for providing transit users with reliable schedules and dependable real-time information. This paper is the first to utilize roadside urban imagery for direct transit travel time prediction. We propose and evaluate an end-to-end framework integrating traditional transit data sources with a roadside camera for automated roadside image data acquisition, labeling, and model training to predict transit travel times across a segment of interest. First, we show how the GTFS real-time data can be utilized as an efficient activation mechanism for a roadside camera unit monitoring a segment of interest. Second, AVL data is utilized to generate ground truth labels for the acquired images based on the observed transit travel time percentiles across the camera-monitored segment during the time of image acquisition. Finally, the generated labeled image dataset is used to train and thoroughly evaluate a Vision Transformer (ViT) model to predict a discrete transit travel time range (band). The results illustrate that the ViT model is able to learn image features and contents that best help it deduce the expected travel time range with an average validation accuracy ranging between 80%-85%. We assess the interpretability of the ViT model's predictions and showcase how this discrete travel time band prediction can subsequently improve continuous transit travel time estimation. The workflow and results presented in this study provide an end-to-end, scalable, automated, and highly efficient approach for integrating traditional transit data sources and roadside imagery to improve the estimation of transit travel duration. This work also demonstrates the value of incorporating real-time information from computer-vision sources, which are becoming increasingly accessible and can have major implications for improving operations and passenger real-time information.",
+    "published": "2022-11-22T15:13:47Z",
+    "updated": "2022-12-13T18:07:53Z",
+    "categories": [
+      "cs.CV"
+    ],
+    "primary_category": "cs.CV",
+    "url": "https://arxiv.org/abs/2211.12322",
+    "pdf_url": "https://arxiv.org/pdf/2211.12322v3",
+    "doi": null
+  },
+  {
+    "arxiv_id": "2210.01799",
+    "arxiv_id_version": "2210.01799v1",
+    "title": "STGIN: A Spatial Temporal Graph-Informer Network for Long Sequence Traffic Speed Forecasting",
+    "authors": [
+      "Ruikang Luo",
+      "Yaofeng Song",
+      "Liping Huang",
+      "Yicheng Zhang",
+      "Rong Su"
+    ],
+    "abstract": "Accurate long series forecasting of traffic information is critical for the development of intelligent traffic systems. We may benefit from the rapid growth of neural network analysis technology to better understand the underlying functioning patterns of traffic networks as a result of this progress. Due to the fact that traffic data and facility utilization circumstances are sequentially dependent on past and present situations, several related neural network techniques based on temporal dependency extraction models have been developed to solve the problem. The complicated topological road structure, on the other hand, amplifies the effect of spatial interdependence, which cannot be captured by pure temporal extraction approaches. Additionally, the typical Deep Recurrent Neural Network (RNN) topology has a constraint on global information extraction, which is required for comprehensive long-term prediction. This study proposes a new spatial-temporal neural network architecture, called Spatial-Temporal Graph-Informer (STGIN), to handle the long-term traffic parameters forecasting issue by merging the Informer and Graph Attention Network (GAT) layers for spatial and temporal relationships extraction. The attention mechanism potentially guarantees long-term prediction performance without significant information loss from distant inputs. On two real-world traffic datasets with varying horizons, experimental findings validate the long sequence prediction abilities, and further interpretation is provided.",
+    "published": "2022-10-01T05:58:22Z",
+    "updated": "2022-10-01T05:58:22Z",
+    "categories": [
+      "cs.LG",
+      "cs.AI"
+    ],
+    "primary_category": "cs.LG",
+    "url": "https://arxiv.org/abs/2210.01799",
+    "pdf_url": "https://arxiv.org/pdf/2210.01799v1",
+    "doi": null
+  },
+  {
+    "arxiv_id": "2209.07943",
+    "arxiv_id_version": "2209.07943v1",
+    "title": "Traffic Congestion Prediction using Deep Convolutional Neural Networks: A Color-coding Approach",
+    "authors": [
+      "Mirza Fuad Adnan",
+      "Nadim Ahmed",
+      "Imrez Ishraque",
+      "Md. Sifath Al Amin",
+      "Md. Sumit Hasan"
+    ],
+    "abstract": "The traffic video data has become a critical factor in confining the state of traffic congestion due to the recent advancements in computer vision. This work proposes a unique technique for traffic video classification using a color-coding scheme before training the traffic data in a Deep convolutional neural network. At first, the video data is transformed into an imagery data set; then, the vehicle detection is performed using the You Only Look Once algorithm. A color-coded scheme has been adopted to transform the imagery dataset into a binary image dataset. These binary images are fed to a Deep Convolutional Neural Network. Using the UCSD dataset, we have obtained a classification accuracy of 98.2%.",
+    "published": "2022-09-16T14:02:20Z",
+    "updated": "2022-09-16T14:02:20Z",
+    "categories": [
+      "cs.CV",
+      "cs.AI"
+    ],
+    "primary_category": "cs.CV",
+    "url": "https://arxiv.org/abs/2209.07943",
+    "pdf_url": "https://arxiv.org/pdf/2209.07943v1",
+    "doi": null
+  },
+  {
+    "arxiv_id": "2208.11061",
+    "arxiv_id_version": "2208.11061v2",
+    "title": "Large-Scale Traffic Congestion Prediction based on Multimodal Fusion and Representation Mapping",
+    "authors": [
+      "Bodong Zhou",
+      "Jiahui Liu",
+      "Songyi Cui",
+      "Yaping Zhao"
+    ],
+    "abstract": "With the progress of the urbanisation process, the urban transportation system is extremely critical to the development of cities and the quality of life of the citizens. Among them, it is one of the most important tasks to judge traffic congestion by analysing the congestion factors. Recently, various traditional and machine-learning-based models have been introduced for predicting traffic congestion. However, these models are either poorly aggregated for massive congestion factors or fail to make accurate predictions for every precise location in large-scale space. To alleviate these problems, a novel end-to-end framework based on convolutional neural networks is proposed in this paper. With learning representations, the framework proposes a novel multimodal fusion module and a novel representation mapping module to achieve traffic congestion predictions on arbitrary query locations on a large-scale map, combined with various global reference information. The proposed framework achieves significant results and efficient inference on real-world large-scale datasets.",
+    "published": "2022-08-23T16:07:28Z",
+    "updated": "2023-08-16T17:02:51Z",
+    "categories": [
+      "cs.LG"
+    ],
+    "primary_category": "cs.LG",
+    "url": "https://arxiv.org/abs/2208.11061",
+    "pdf_url": "https://arxiv.org/pdf/2208.11061v2",
+    "doi": null
+  },
+  {
+    "arxiv_id": "2208.06979",
+    "arxiv_id_version": "2208.06979v1",
+    "title": "DuETA: Traffic Congestion Propagation Pattern Modeling via Efficient Graph Learning for ETA Prediction at Baidu Maps",
+    "authors": [
+      "Jizhou Huang",
+      "Zhengjie Huang",
+      "Xiaomin Fang",
+      "Shikun Feng",
+      "Xuyi Chen",
+      "Jiaxiang Liu",
+      "Haitao Yuan",
+      "Haifeng Wang"
+    ],
+    "abstract": "Estimated time of arrival (ETA) prediction, also known as travel time estimation, is a fundamental task for a wide range of intelligent transportation applications, such as navigation, route planning, and ride-hailing services. To accurately predict the travel time of a route, it is essential to take into account both contextual and predictive factors, such as spatial-temporal interaction, driving behavior, and traffic congestion propagation inference. The ETA prediction models previously deployed at Baidu Maps have addressed the factors of spatial-temporal interaction (ConSTGAT) and driving behavior (SSML). In this work, we focus on modeling traffic congestion propagation patterns to improve ETA performance. Traffic congestion propagation pattern modeling is challenging, and it requires accounting for impact regions over time and cumulative effect of delay variations over time caused by traffic events on the road network. In this paper, we present a practical industrial-grade ETA prediction framework named DuETA. Specifically, we construct a congestion-sensitive graph based on the correlations of traffic patterns, and we develop a route-aware graph transformer to directly learn the long-distance correlations of the road segments. This design enables DuETA to capture the interactions between the road segment pairs that are spatially distant but highly correlated with traffic conditions. Extensive experiments are conducted on large-scale, real-world datasets collected from Baidu Maps. Experimental results show that ETA prediction can significantly benefit from the learned traffic congestion propagation patterns. In addition, DuETA has already been deployed in production at Baidu Maps, serving billions of requests every day. This demonstrates that DuETA is an industrial-grade and robust solution for large-scale ETA prediction services.",
+    "published": "2022-08-15T02:46:33Z",
+    "updated": "2022-08-15T02:46:33Z",
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "cs.SI"
+    ],
+    "primary_category": "cs.LG",
+    "url": "https://arxiv.org/abs/2208.06979",
+    "pdf_url": "https://arxiv.org/pdf/2208.06979v1",
+    "doi": "10.1145/3511808.3557091"
+  },
+  {
+    "arxiv_id": "2208.04667",
+    "arxiv_id_version": "2208.04667v1",
+    "title": "Representation learning of rare temporal conditions for travel time prediction",
+    "authors": [
+      "Niklas Petersen",
+      "Filipe Rodrigues",
+      "Francisco Pereira"
+    ],
+    "abstract": "Predicting travel time under rare temporal conditions (e.g., public holidays, school vacation period, etc.) constitutes a challenge due to the limitation of historical data. If at all available, historical data often form a heterogeneous time series due to high probability of other changes over long periods of time (e.g., road works, introduced traffic calming initiatives, etc.). This is especially prominent in cities and suburban areas. We present a vector-space model for encoding rare temporal conditions, that allows coherent representation learning across different temporal conditions. We show increased performance for travel time prediction over different baselines when utilizing the vector-space encoding for representing the temporal setting.",
+    "published": "2022-08-09T11:21:10Z",
+    "updated": "2022-08-09T11:21:10Z",
+    "categories": [
+      "stat.ML",
+      "cs.LG"
+    ],
+    "primary_category": "stat.ML",
+    "url": "https://arxiv.org/abs/2208.04667",
+    "pdf_url": "https://arxiv.org/pdf/2208.04667v1",
+    "doi": null
+  },
+  {
+    "arxiv_id": "2207.11030",
+    "arxiv_id_version": "2207.11030v1",
+    "title": "A Transferable Intersection Reconstruction Network for Traffic Speed Prediction",
+    "authors": [
+      "Pengyu Fu",
+      "Liang Chu",
+      "Zhuoran Hou",
+      "Jincheng Hu",
+      "Yanjun Huang",
+      "Yuanjian Zhang"
+    ],
+    "abstract": "Traffic speed prediction is the key to many valuable applications, and it is also a challenging task because of its various influencing factors. Recent work attempts to obtain more information through various hybrid models, thereby improving the prediction accuracy. However, the spatial information acquisition schemes of these methods have two-level differentiation problems. Either the modeling is simple but contains little spatial information, or the modeling is complete but lacks flexibility. In order to introduce more spatial information on the basis of ensuring flexibility, this paper proposes IRNet (Transferable Intersection Reconstruction Network). First, this paper reconstructs the intersection into a virtual intersection with the same structure, which simplifies the topology of the road network. Then, the spatial information is subdivided into intersection information and sequence information of traffic flow direction, and spatiotemporal features are obtained through various models. Third, a self-attention mechanism is used to fuse spatiotemporal features for prediction. In the comparison experiment with the baseline, not only the prediction effect, but also the transfer performance has obvious advantages.",
+    "published": "2022-07-22T12:13:56Z",
+    "updated": "2022-07-22T12:13:56Z",
+    "categories": [
+      "cs.LG"
+    ],
+    "primary_category": "cs.LG",
+    "url": "https://arxiv.org/abs/2207.11030",
+    "pdf_url": "https://arxiv.org/pdf/2207.11030v1",
+    "doi": null
+  },
+  {
+    "arxiv_id": "2207.00838",
+    "arxiv_id_version": "2207.00838v1",
+    "title": "GOF-TTE: Generative Online Federated Learning Framework for Travel Time Estimation",
+    "authors": [
+      "Zhiwen Zhang",
+      "Hongjun Wang",
+      "Jiyuan Chen",
+      "Zipei Fan",
+      "Xuan Song",
+      "Ryosuke Shibasaki"
+    ],
+    "abstract": "Estimating the travel time of a path is an essential topic for intelligent transportation systems. It serves as the foundation for real-world applications, such as traffic monitoring, route planning, and taxi dispatching. However, building a model for such a data-driven task requires a large amount of users' travel information, which directly relates to their privacy and thus is less likely to be shared. The non-Independent and Identically Distributed (non-IID) trajectory data across data owners also make a predictive model extremely challenging to be personalized if we directly apply federated learning. Finally, previous work on travel time estimation does not consider the real-time traffic state of roads, which we argue can significantly influence the prediction. To address the above challenges, we introduce GOF-TTE for the mobile user group, Generative Online Federated Learning Framework for Travel Time Estimation, which I) utilizes the federated learning approach, allowing private data to be kept on client devices while training, and designs the global model as an online generative model shared by all clients to infer the real-time road traffic state. II) apart from sharing a base model at the server, adapts a fine-tuned personalized model for every client to study their personal driving habits, making up for the residual error made by localized global model prediction. % III) designs the global model as an online generative model shared by all clients to infer the real-time road traffic state. We also employ a simple privacy attack to our framework and implement the differential privacy mechanism to further guarantee privacy safety. Finally, we conduct experiments on two real-world public taxi datasets of DiDi Chengdu and Xi'an. The experimental results demonstrate the effectiveness of our proposed framework.",
+    "published": "2022-07-02T14:10:26Z",
+    "updated": "2022-07-02T14:10:26Z",
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "cs.DB",
+      "cs.DC"
+    ],
+    "primary_category": "cs.LG",
+    "url": "https://arxiv.org/abs/2207.00838",
+    "pdf_url": "https://arxiv.org/pdf/2207.00838v1",
+    "doi": null
+  },
+  {
+    "arxiv_id": "2206.10983",
+    "arxiv_id_version": "2206.10983v5",
+    "title": "Traffic Congestion Prediction Using Machine Learning Techniques",
+    "authors": [
+      "Rafed Muhammad Yasir",
+      "Moumita Asad",
+      "Naushin Nower",
+      "Mohammad Shoyaib"
+    ],
+    "abstract": "The prediction of traffic congestion can serve a crucial role in making future decisions. Although many studies have been conducted regarding congestion, most of these could not cover all the important factors (e.g., weather conditions). We proposed a prediction model for traffic congestion that can predict congestion based on day, time and several weather data (e.g., temperature, humidity). To evaluate our model, it has been tested against the traffic data of New Delhi. With this model, congestion of a road can be predicted one week ahead with an average RMSE of 1.12. Therefore, this model can be used to take preventive measure beforehand.",
+    "published": "2022-06-22T11:17:46Z",
+    "updated": "2025-04-19T03:28:02Z",
+    "categories": [
+      "cs.LG",
+      "eess.SP"
+    ],
+    "primary_category": "cs.LG",
+    "url": "https://arxiv.org/abs/2206.10983",
+    "pdf_url": "https://arxiv.org/pdf/2206.10983v5",
+    "doi": null
+  },
+  {
+    "arxiv_id": "2112.02409",
+    "arxiv_id_version": "2112.02409v2",
+    "title": "Understanding Dynamic Spatio-Temporal Contexts in Long Short-Term Memory for Road Traffic Speed Prediction",
+    "authors": [
+      "Won Kyung Lee",
+      "Deuk Sin Kwon",
+      "So Young Sohn"
+    ],
+    "abstract": "Reliable traffic flow prediction is crucial to creating intelligent transportation systems. Many big-data-based prediction approaches have been developed but they do not reflect complicated dynamic interactions between roads considering time and location. In this study, we propose a dynamically localised long short-term memory (LSTM) model that involves both spatial and temporal dependence between roads. To do so, we use a localised dynamic spatial weight matrix along with its dynamic variation. Moreover, the LSTM model can deal with sequential data with long dependency as well as complex non-linear features. Empirical results indicated superior prediction performances of the proposed model compared to two different baseline methods.",
+    "published": "2021-12-04T19:33:05Z",
+    "updated": "2023-06-17T01:25:52Z",
+    "categories": [
+      "cs.LG",
+      "cs.AI"
+    ],
+    "primary_category": "cs.LG",
+    "url": "https://arxiv.org/abs/2112.02409",
+    "pdf_url": "https://arxiv.org/pdf/2112.02409v2",
+    "doi": null
+  },
+  {
+    "arxiv_id": "2111.08226",
+    "arxiv_id_version": "2111.08226v1",
+    "title": "Comparative Analysis of Machine Learning Models for Predicting Travel Time",
+    "authors": [
+      "Armstrong Aboah",
+      "Elizabeth Arthur"
+    ],
+    "abstract": "In this paper, five different deep learning models are being compared for predicting travel time. These models are autoregressive integrated moving average (ARIMA) model, recurrent neural network (RNN) model, autoregressive (AR) model, Long-short term memory (LSTM) model, and gated recurrent units (GRU) model. The aim of this study is to investigate the performance of each developed model for forecasting travel time. The dataset used in this paper consists of travel time and travel speed information from the state of Missouri. The learning rate used for building each model was varied from 0.0001-0.01. The best learning rate was found to be 0.001. The study concluded that the ARIMA model was the best model architecture for travel time prediction and forecasting.",
+    "published": "2021-11-16T04:55:21Z",
+    "updated": "2021-11-16T04:55:21Z",
+    "categories": [
+      "cs.LG",
+      "cs.CV"
+    ],
+    "primary_category": "cs.LG",
+    "url": "https://arxiv.org/abs/2111.08226",
+    "pdf_url": "https://arxiv.org/pdf/2111.08226v1",
+    "doi": null
+  },
+  {
+    "arxiv_id": "2111.02115",
+    "arxiv_id_version": "2111.02115v1",
+    "title": "Multistep traffic speed prediction: A deep learning based approach using latent space mapping considering spatio-temporal dependencies",
+    "authors": [
+      "Shatrughan Modi",
+      "Jhilik Bhattacharya",
+      "Prasenjit Basak"
+    ],
+    "abstract": "Traffic management in a city has become a major problem due to the increasing number of vehicles on roads. Intelligent Transportation System (ITS) can help the city traffic managers to tackle the problem by providing accurate traffic forecasts. For this, ITS requires a reliable traffic prediction algorithm that can provide accurate traffic prediction at multiple time steps based on past and current traffic data. In recent years, a number of different methods for traffic prediction have been proposed which have proved their effectiveness in terms of accuracy. However, most of these methods have either considered spatial information or temporal information only and overlooked the effect of other. In this paper, to address the above problem a deep learning based approach has been developed using both the spatial and temporal dependencies. To consider spatio-temporal dependencies, nearby road sensors at a particular instant are selected based on the attributes like traffic similarity and distance. Two pre-trained deep auto-encoders were cross-connected using the concept of latent space mapping and the resultant model was trained using the traffic data from the selected nearby sensors as input. The proposed deep learning based approach was trained using the real-world traffic data collected from loop detector sensors installed on different highways of Los Angeles and Bay Area. The traffic data is freely available from the web portal of the California Department of Transportation Performance Measurement System (PeMS). The effectiveness of the proposed approach was verified by comparing it with a number of machine/deep learning approaches. It has been found that the proposed approach provides accurate traffic prediction results even for 60-min ahead prediction with least error than other techniques.",
+    "published": "2021-11-03T10:17:48Z",
+    "updated": "2021-11-03T10:17:48Z",
+    "categories": [
+      "cs.LG",
+      "cs.AI"
+    ],
+    "primary_category": "cs.LG",
+    "url": "https://arxiv.org/abs/2111.02115",
+    "pdf_url": "https://arxiv.org/pdf/2111.02115v1",
+    "doi": "10.1016/j.eswa.2021.116140"
+  },
+  {
+    "arxiv_id": "2111.00149",
+    "arxiv_id_version": "2111.00149v1",
+    "title": "Temporal-Spatial Feature Extraction Based on Convolutional Neural Networks for Travel Time Prediction",
+    "authors": [
+      "Chi-Hua Chen"
+    ],
+    "abstract": "In recent years, some traffic information prediction methods have been proposed to provide the precise information of travel time, vehicle speed, and traffic flow for highways. However, big errors may be obtained by these methods for urban roads or the alternative roads of highways. Therefore, this study proposes a travel time prediction method based on convolutional neural networks to extract important factors for the improvement of traffic information prediction. In practical experimental environments, the travel time records of No. 5 Highway and the alternative roads of its were collected and used to evaluate the proposed method. The results showed that the mean absolute percentage error of the proposed method was about 5.69%. Therefore, the proposed method based on deep learning techniques can improve the accuracy of travel time prediction.",
+    "published": "2021-10-30T02:44:54Z",
+    "updated": "2021-10-30T02:44:54Z",
+    "categories": [
+      "cs.LG",
+      "cs.AI"
+    ],
+    "primary_category": "cs.LG",
+    "url": "https://arxiv.org/abs/2111.00149",
+    "pdf_url": "https://arxiv.org/pdf/2111.00149v1",
+    "doi": null
+  },
+  {
+    "arxiv_id": "2109.07402",
+    "arxiv_id_version": "2109.07402v3",
+    "title": "Multi View Spatial-Temporal Model for Travel Time Estimation",
+    "authors": [
+      "ZiChuan Liu",
+      "Zhaoyang Wu",
+      "Meng Wang",
+      "Rui Zhang"
+    ],
+    "abstract": "Taxi arrival time prediction is essential for building intelligent transportation systems. Traditional prediction methods mainly rely on extracting features from traffic maps, which cannot model complex situations and nonlinear spatial and temporal relationships. Therefore, we propose Multi-View Spatial-Temporal Model (MVSTM) to capture the mutual dependence of spatial-temporal relations and trajectory features. Specifically, we use graph2vec to model the spatial view, dual-channel temporal module to model the trajectory view, and structural embedding to model traffic semantics. Experiments on large-scale taxi trajectory data have shown that our approach is more effective than the existing novel methods. The source code can be found at https://github.com/775269512/SIGSPATIAL-2021-GISCUP-4th-Solution.",
+    "published": "2021-09-15T16:11:18Z",
+    "updated": "2021-09-30T15:40:11Z",
+    "categories": [
+      "cs.LG",
+      "cs.CY"
+    ],
+    "primary_category": "cs.LG",
+    "url": "https://arxiv.org/abs/2109.07402",
+    "pdf_url": "https://arxiv.org/pdf/2109.07402v3",
+    "doi": "10.1145/3474717.3488239"
+  },
+  {
+    "arxiv_id": "2108.03594",
+    "arxiv_id_version": "2108.03594v2",
+    "title": "MAF-GNN: Multi-adaptive Spatiotemporal-flow Graph Neural Network for Traffic Speed Forecasting",
+    "authors": [
+      "Yaobin Xu",
+      "Weitang Liu",
+      "Zhongyi Jiang",
+      "Zixuan Xu",
+      "Tingyun Mao",
+      "Lili Chen",
+      "Mingwei Zhou"
+    ],
+    "abstract": "Traffic forecasting is a core element of intelligent traffic monitoring system. Approaches based on graph neural networks have been widely used in this task to effectively capture spatial and temporal dependencies of road networks. However, these approaches can not effectively define the complicated network topology. Besides, their cascade network structures have limitations in transmitting distinct features in the time and space dimensions. In this paper, we propose a Multi-adaptive Spatiotemporal-flow Graph Neural Network (MAF-GNN) for traffic speed forecasting. MAF-GNN introduces an effective Multi-adaptive Adjacency Matrices Mechanism to capture multiple latent spatial dependencies between traffic nodes. Additionally, we propose Spatiotemporal-flow Modules aiming to further enhance feature propagation in both time and space dimensions. MAF-GNN achieves better performance than other models on two real-world datasets of public traffic network, METR-LA and PeMS-Bay, demonstrating the effectiveness of the proposed approach.",
+    "published": "2021-08-08T09:06:43Z",
+    "updated": "2022-03-09T13:04:28Z",
+    "categories": [
+      "cs.LG"
+    ],
+    "primary_category": "cs.LG",
+    "url": "https://arxiv.org/abs/2108.03594",
+    "pdf_url": "https://arxiv.org/pdf/2108.03594v2",
+    "doi": null
+  },
+  {
+    "arxiv_id": "2105.09421",
+    "arxiv_id_version": "2105.09421v1",
+    "title": "DistTune: Distributed Fine-Grained Adaptive Traffic Speed Prediction for Growing Transportation Networks",
+    "authors": [
+      "Ming-Chang Lee",
+      "Jia-Chun Lin",
+      "Ernst Gunnar Gran"
+    ],
+    "abstract": "Over the past decade, many approaches have been introduced for traffic speed prediction. However, providing fine-grained, accurate, time-efficient, and adaptive traffic speed prediction for a growing transportation network where the size of the network keeps increasing and new traffic detectors are constantly deployed has not been well studied. To address this issue, this paper presents DistTune based on Long Short-Term Memory (LSTM) and the Nelder-Mead method. Whenever encountering an unprocessed detector, DistTune decides if it should customize an LSTM model for this detector by comparing the detector with other processed detectors in terms of the normalized traffic speed patterns they have observed. If similarity is found, DistTune directly shares an existing LSTM model with this detector to achieve time-efficient processing. Otherwise, DistTune customizes an LSTM model for the detector to achieve fine-grained prediction. To make DistTune even more time-efficient, DistTune performs on a cluster of computing nodes in parallel. To achieve adaptive traffic speed prediction, DistTune also provides LSTM re-customization for detectors that suffer from unsatisfactory prediction accuracy due to for instance traffic speed pattern change. Extensive experiments based on traffic data collected from freeway I5-N in California are conducted to evaluate the performance of DistTune. The results demonstrate that DistTune provides fine-grained, accurate, time-efficient, and adaptive traffic speed prediction for a growing transportation network.",
+    "published": "2021-05-19T22:20:58Z",
+    "updated": "2021-05-19T22:20:58Z",
+    "categories": [
+      "cs.LG"
+    ],
+    "primary_category": "cs.LG",
+    "url": "https://arxiv.org/abs/2105.09421",
+    "pdf_url": "https://arxiv.org/pdf/2105.09421v1",
+    "doi": "10.1177/03611981211011170"
+  },
+  {
+    "arxiv_id": "2104.09083",
+    "arxiv_id_version": "2104.09083v2",
+    "title": "Multi-fold Correlation Attention Network for Predicting Traffic Speeds with Heterogeneous Frequency",
+    "authors": [
+      "Yidan Sun",
+      "Guiyuan Jiang",
+      "Siew-Kei Lam",
+      "Peilan He",
+      "Fangxin Ning"
+    ],
+    "abstract": "Substantial efforts have been devoted to the investigation of spatiotemporal correlations for improving traffic speed prediction accuracy. However, existing works typically model the correlations based solely on the observed traffic state (e.g. traffic speed) without due consideration that different correlation measurements of the traffic data could exhibit a diverse set of patterns under different traffic situations. In addition, the existing works assume that all road segments can employ the same sampling frequency of traffic states, which is impractical. In this paper, we propose new measurements to model the spatial correlations among traffic data and show that the resulting correlation patterns vary significantly under various traffic situations. We propose a Heterogeneous Spatial Correlation (HSC) model to capture the spatial correlation based on a specific measurement, where the traffic data of varying road segments can be heterogeneous (i.e. obtained with different sampling frequency). We propose a Multi-fold Correlation Attention Network (MCAN), which relies on the HSC model to explore multi-fold spatial correlations and leverage LSTM networks to capture multi-fold temporal correlations to provide discriminating features in order to achieve accurate traffic prediction. The learned multi-fold spatiotemporal correlations together with contextual factors are fused with attention mechanism to make the final predictions. Experiments on real-world datasets demonstrate that the proposed MCAN model outperforms the state-of-the-art baselines.",
+    "published": "2021-04-19T06:58:51Z",
+    "updated": "2022-05-05T02:25:31Z",
+    "categories": [
+      "cs.LG",
+      "cs.AI"
+    ],
+    "primary_category": "cs.LG",
+    "url": "https://arxiv.org/abs/2104.09083",
+    "pdf_url": "https://arxiv.org/pdf/2104.09083v2",
+    "doi": null
+  },
+  {
+    "arxiv_id": "2104.06819",
+    "arxiv_id_version": "2104.06819v1",
+    "title": "Short-term bus travel time prediction for transfer synchronization with intelligent uncertainty handling",
+    "authors": [
+      "Niklas Christoffer Petersen",
+      "Anders Parslov",
+      "Filipe Rodrigues"
+    ],
+    "abstract": "This paper presents two novel approaches for uncertainty estimation adapted and extended for the multi-link bus travel time problem. The uncertainty is modeled directly as part of recurrent artificial neural networks, but using two fundamentally different approaches: one based on Deep Quantile Regression (DQR) and the other on Bayesian Recurrent Neural Networks (BRNN). Both models predict multiple time steps into the future, but handle the time-dependent uncertainty estimation differently. We present a sampling technique in order to aggregate quantile estimates for link level travel time to yield the multi-link travel time distribution needed for a vehicle to travel from its current position to a specific downstream stop point or transfer site. To motivate the relevance of uncertainty-aware models in the domain, we focus on the connection assurance application as a case study: An expert system to determine whether a bus driver should hold and wait for a connecting service, or break the connection and reduce its own delay. Our results show that the DQR-model performs overall best for the 80%, 90% and 95% prediction intervals, both for a 15 minute time horizon into the future (t + 1), but also for the 30 and 45 minutes time horizon (t + 2 and t + 3), with a constant, but very small underestimation of the uncertainty interval (1-4 pp.). However, we also show, that the BRNN model still can outperform the DQR for specific cases. Lastly, we demonstrate how a simple decision support system can take advantage of our uncertainty-aware travel time models to prioritize the difference in travel time uncertainty for bus holding at strategic points, thus reducing the introduced delay for the connection assurance application.",
+    "published": "2021-04-14T12:38:27Z",
+    "updated": "2021-04-14T12:38:27Z",
+    "categories": [
+      "cs.LG",
+      "stat.ML"
+    ],
+    "primary_category": "cs.LG",
+    "url": "https://arxiv.org/abs/2104.06819",
+    "pdf_url": "https://arxiv.org/pdf/2104.06819v1",
+    "doi": null
+  },
+  {
+    "arxiv_id": "2102.09759",
+    "arxiv_id_version": "2102.09759v2",
+    "title": "Applications of deep learning in traffic congestion detection, prediction and alleviation: A survey",
+    "authors": [
+      "Nishant Kumar",
+      "Martin Raubal"
+    ],
+    "abstract": "Detecting, predicting, and alleviating traffic congestion are targeted at improving the level of service of the transportation network. With increasing access to larger datasets of higher resolution, the relevance of deep learning for such tasks is increasing. Several comprehensive survey papers in recent years have summarised the deep learning applications in the transportation domain. However, the system dynamics of the transportation network vary greatly between the non-congested state and the congested state -- thereby necessitating the need for a clear understanding of the challenges specific to congestion prediction. In this survey, we present the current state of deep learning applications in the tasks related to detection, prediction, and alleviation of congestion. Recurring and non-recurring congestion are discussed separately. Our survey leads us to uncover inherent challenges and gaps in the current state of research. Finally, we present some suggestions for future research directions as answers to the identified challenges.",
+    "published": "2021-02-19T06:23:35Z",
+    "updated": "2021-11-02T03:53:41Z",
+    "categories": [
+      "cs.LG",
+      "stat.ML"
+    ],
+    "primary_category": "cs.LG",
+    "url": "https://arxiv.org/abs/2102.09759",
+    "pdf_url": "https://arxiv.org/pdf/2102.09759v2",
+    "doi": "10.1016/j.trc.2021.103432"
+  },
+  {
+    "arxiv_id": "2102.02292",
+    "arxiv_id_version": "2102.02292v1",
+    "title": "Predicting the probability distribution of bus travel time to move towards reliable planning of public transport services",
+    "authors": [
+      "Léa Ricard",
+      "Guy Desaulniers",
+      "Andrea Lodi",
+      "Louis-Martin Rousseau"
+    ],
+    "abstract": "An important aspect of the quality of a public transport service is its reliability, which is defined as the invariability of the service attributes. Preventive measures taken during planning can reduce risks of unreliability throughout operations. In order to tackle reliability during the service planning phase, a key piece of information is the long-term prediction of the density of the travel time, which conveys the uncertainty of travel times. We introduce a reliable approach to one of the problems of service planning in public transport, namely the Multiple Depot Vehicle Scheduling Problem (MDVSP), which takes as input a set of trips and the probability density function (p.d.f.) of the travel time of each trip in order to output delay-tolerant vehicle schedules. This work empirically compares probabilistic models for the prediction of the conditional p.d.f. of the travel time, as a first step towards reliable MDVSP solutions. Two types of probabilistic models, namely similarity-based density estimation models and a smoothed Logistic Regression for probabilistic classification model, are compared on a dataset of more than 41,000 trips and 50 bus routes of the city of Montréal. The result of a vast majority of probabilistic models outperforms that of a Random Forests model, which is not inherently probabilistic, thus highlighting the added value of modeling the conditional p.d.f. of the travel time with probabilistic models. A similarity-based density estimation model using a $k$ Nearest Neighbors method and a Kernel Density Estimation predicted the best estimate of the true conditional p.d.f. on this dataset.",
+    "published": "2021-02-03T21:05:37Z",
+    "updated": "2021-02-03T21:05:37Z",
+    "categories": [
+      "cs.LG",
+      "math.OC"
+    ],
+    "primary_category": "cs.LG",
+    "url": "https://arxiv.org/abs/2102.02292",
+    "pdf_url": "https://arxiv.org/pdf/2102.02292v1",
+    "doi": null
+  },
+  {
+    "arxiv_id": "2101.00310",
+    "arxiv_id_version": "2101.00310v2",
+    "title": "Privacy-preserving Travel Time Prediction with Uncertainty Using GPS Trace Data",
+    "authors": [
+      "Fang Liu",
+      "Dong Wang",
+      "Zhengquan Xu"
+    ],
+    "abstract": "The rapid growth of GPS technology and mobile devices has led to a massive accumulation of location data, bringing considerable benefits to individuals and society. One of the major usages of such data is travel time prediction, a typical service provided by GPS navigation devices and apps. Meanwhile, the constant collection and analysis of the individual location data also pose unprecedented privacy threats. We leverage the notion of geo-indistinguishability, an extension of differential privacy to the location privacy setting, and propose a procedure for privacy-preserving travel time prediction without collecting actual individual GPS trace data. We propose new concepts to examine the impact of geo-indistinguishability-based sanitization on the usefulness of GPS traces and provide analytical and experimental utility analysis for privacy-preserving travel time prediction. We also propose new metrics to measure the adversary error in learning individual GPS traces from the collected sanitized data. Our experiment results suggest that the proposed procedure provides travel time prediction with satisfactory accuracy at reasonably small privacy costs.",
+    "published": "2021-01-01T20:08:23Z",
+    "updated": "2021-05-07T05:36:06Z",
+    "categories": [
+      "cs.CR"
+    ],
+    "primary_category": "cs.CR",
+    "url": "https://arxiv.org/abs/2101.00310",
+    "pdf_url": "https://arxiv.org/pdf/2101.00310v2",
+    "doi": "10.1109/TMC.2021.3074865"
+  },
+  {
+    "arxiv_id": "2011.11866",
+    "arxiv_id_version": "2011.11866v1",
+    "title": "Gaussian Processes for Traffic Speed Prediction at Different Aggregation Levels",
+    "authors": [
+      "Gurcan Comert"
+    ],
+    "abstract": "Dynamic behavior of traffic adversely affect the performance of the prediction models in intelligent transportation applications. This study applies Gaussian processes (GPs) to traffic speed prediction. Such predictions can be used by various transportation applications, such as real-time route guidance, ramp metering, congestion pricing and special events traffic management. One-step predictions with various aggregation levels (1 to 60-minute) are tested for performance of the generated models. Univariate and multivariate GPs are compared with several other linear, nonlinear time series, and Grey system models using loop and Inrix probe vehicle datasets from California, Portland, and Virginia freeways respectively. Based on the test data samples, results are promising that GP models are able to consistently outperform compared models with similar computational times.",
+    "published": "2020-11-24T03:05:01Z",
+    "updated": "2020-11-24T03:05:01Z",
+    "categories": [
+      "stat.AP",
+      "cs.AI",
+      "cs.LG"
+    ],
+    "primary_category": "stat.AP",
+    "url": "https://arxiv.org/abs/2011.11866",
+    "pdf_url": "https://arxiv.org/pdf/2011.11866v1",
+    "doi": null
+  },
+  {
+    "arxiv_id": "2011.05073",
+    "arxiv_id_version": "2011.05073v2",
+    "title": "Traffic congestion and travel time prediction based on historical congestion maps and identification of consensual days",
+    "authors": [
+      "Nicolas Chiabaut",
+      "Rémi Faitout"
+    ],
+    "abstract": "In this paper, a new practice-ready method for the real-time estimation of traffic conditions and travel times on highways is introduced. First, after a principal component analysis, observation days of a historical dataset are clustered. Two different methods are compared: a Gaussian Mixture Model and a k-means algorithm. The clustering results reveal that congestion maps of days of the same group have substantial similarity in their traffic conditions and dynamic. Such a map is a binary visualization of the congestion propagation on the freeway, giving more importance to the traffic dynamics. Second, a consensus day is identified in each cluster as the most representative day of the community according to the congestion maps. Third, this information obtained from the historical data is used to predict traffic congestion propagation and travel times. Thus, the first measurements of a new day are used to determine which consensual day is the closest to this new day. The past observations recorded for that consensual day are then used to predict future traffic conditions and travel times. This method is tested using ten months of data collected on a French freeway and shows very encouraging results.",
+    "published": "2020-11-10T12:46:08Z",
+    "updated": "2020-11-12T16:12:23Z",
+    "categories": [
+      "physics.soc-ph",
+      "cs.LG"
+    ],
+    "primary_category": "physics.soc-ph",
+    "url": "https://arxiv.org/abs/2011.05073",
+    "pdf_url": "https://arxiv.org/pdf/2011.05073v2",
+    "doi": null
+  },
+  {
+    "arxiv_id": "2011.01771",
+    "arxiv_id_version": "2011.01771v1",
+    "title": "Deep Reinforcement Learning Based Dynamic Route Planning for Minimizing Travel Time",
+    "authors": [
+      "Yuanzhe Geng",
+      "Erwu Liu",
+      "Rui Wang",
+      "Yiming Liu"
+    ],
+    "abstract": "Route planning is important in transportation. Existing works focus on finding the shortest path solution or using metrics such as safety and energy consumption to determine the planning. It is noted that most of these studies rely on prior knowledge of road network, which may be not available in certain situations. In this paper, we design a route planning algorithm based on deep reinforcement learning (DRL) for pedestrians. We use travel time consumption as the metric, and plan the route by predicting pedestrian flow in the road network. We put an agent, which is an intelligent robot, on a virtual map. Different from previous studies, our approach assumes that the agent does not need any prior information about road network, but simply relies on the interaction with the environment. We propose a dynamically adjustable route planning (DARP) algorithm, where the agent learns strategies through a dueling deep Q network to avoid congested roads. Simulation results show that the DARP algorithm saves 52% of the time under congestion condition when compared with traditional shortest path planning algorithms.",
+    "published": "2020-11-03T15:10:09Z",
+    "updated": "2020-11-03T15:10:09Z",
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "eess.SY"
+    ],
+    "primary_category": "cs.LG",
+    "url": "https://arxiv.org/abs/2011.01771",
+    "pdf_url": "https://arxiv.org/pdf/2011.01771v1",
+    "doi": null
+  },
+  {
+    "arxiv_id": "2009.01016",
+    "arxiv_id_version": "2009.01016v1",
+    "title": "Travel time prediction for congested freeways with a dynamic linear model",
+    "authors": [
+      "Semin Kwak",
+      "Nikolas Geroliminis"
+    ],
+    "abstract": "Accurate prediction of travel time is an essential feature to support Intelligent Transportation Systems (ITS). The non-linearity of traffic states, however, makes this prediction a challenging task. Here we propose to use dynamic linear models (DLMs) to approximate the non-linear traffic states. Unlike a static linear regression model, the DLMs assume that their parameters are changing across time. We design a DLM with model parameters defined at each time unit to describe the spatio-temporal characteristics of time-series traffic data. Based on our DLM and its model parameters analytically trained using historical data, we suggest an optimal linear predictor in the minimum mean square error (MMSE) sense. We compare our prediction accuracy of travel time for freeways in California (I210-E and I5-S) under highly congested traffic conditions with those of other methods: the instantaneous travel time, k-nearest neighbor, support vector regression, and artificial neural network. We show significant improvements in the accuracy, especially for short-term prediction.",
+    "published": "2020-09-02T12:48:06Z",
+    "updated": "2020-09-02T12:48:06Z",
+    "categories": [
+      "cs.LG",
+      "eess.SP",
+      "stat.ML"
+    ],
+    "primary_category": "cs.LG",
+    "url": "https://arxiv.org/abs/2009.01016",
+    "pdf_url": "https://arxiv.org/pdf/2009.01016v1",
+    "doi": "10.1109/TITS.2020.3006910"
+  },
+  {
+    "arxiv_id": "2007.00882",
+    "arxiv_id_version": "2007.00882v1",
+    "title": "BusTr: Predicting Bus Travel Times from Real-Time Traffic",
+    "authors": [
+      "Richard Barnes",
+      "Senaka Buthpitiya",
+      "James Cook",
+      "Alex Fabrikant",
+      "Andrew Tomkins",
+      "Fangzhou Xu"
+    ],
+    "abstract": "We present BusTr, a machine-learned model for translating road traffic forecasts into predictions of bus delays, used by Google Maps to serve the majority of the world's public transit systems where no official real-time bus tracking is provided. We demonstrate that our neural sequence model improves over DeepTTE, the state-of-the-art baseline, both in performance (-30% MAPE) and training stability. We also demonstrate significant generalization gains over simpler models, evaluated on longitudinal data to cope with a constantly evolving world.",
+    "published": "2020-07-02T05:05:23Z",
+    "updated": "2020-07-02T05:05:23Z",
+    "categories": [
+      "cs.LG",
+      "stat.ML"
+    ],
+    "primary_category": "cs.LG",
+    "url": "https://arxiv.org/abs/2007.00882",
+    "pdf_url": "https://arxiv.org/pdf/2007.00882v1",
+    "doi": "10.1145/3394486.3403376"
+  },
+  {
+    "arxiv_id": "2006.13072",
+    "arxiv_id_version": "2006.13072v1",
+    "title": "Wavelet Augmented Regression Profiling (WARP): improved long-term estimation of travel time series with recurrent congestion",
+    "authors": [
+      "Alvaro Cabrejas Egea",
+      "Colm Connaughton"
+    ],
+    "abstract": "Reliable estimates of typical travel times allow road users to forward plan journeys to minimise travel time, potentially increasing overall system efficiency. On busy highways, however, congestion events can cause large, short-term spikes in travel time. These spikes make direct forecasting of travel time using standard time series models difficult on the timescales of hours to days that are relevant to forward planning. The problem is that some such spikes are caused by unpredictable incidents and should be filtered out, whereas others are caused by recurrent peaks in demand and should be factored into estimates. Here we present the Wavelet Augmented Regression Profiling (WARP) method for long-term estimation of typical travel times. WARP linearly decomposes historical time series of travel times into two components: background and spikes. It then further separates the spikes into contributions from recurrent and residual congestion. This is achieved using a combination of wavelet transforms, spectral filtering and locally weighted regression. The background and recurrent congestion contributions are then used to estimate typical travel times with horizon of one week in an accurate and computationally inexpensive manner. We train and test WARP on the M6 and M11 motorways in the United Kingdom using 12 weeks of link level travel time data obtained from the UK's National Traffic Information Service (NTIS). In out-of-sample validation tests, WARP compares favourably to estimates produced by a simple segmentation method and to the estimates published by NTIS.",
+    "published": "2020-06-23T14:50:28Z",
+    "updated": "2020-06-23T14:50:28Z",
+    "categories": [
+      "cs.CE",
+      "stat.AP"
+    ],
+    "primary_category": "cs.CE",
+    "url": "https://arxiv.org/abs/2006.13072",
+    "pdf_url": "https://arxiv.org/pdf/2006.13072v1",
+    "doi": "10.1109/ITSC45102.2020.9294318"
+  },
+  {
+    "arxiv_id": "2006.13215",
+    "arxiv_id_version": "2006.13215v1",
+    "title": "Traffic congestion anomaly detection and prediction using deep learning",
+    "authors": [
+      "Adriana-Simona Mihaita",
+      "Haowen Li",
+      "Marian-Andrei Rizoiu"
+    ],
+    "abstract": "Congestion prediction represents a major priority for traffic management centres around the world to ensure timely incident response handling. The increasing amounts of generated traffic data have been used to train machine learning predictors for traffic, however, this is a challenging task due to inter-dependencies of traffic flow both in time and space. Recently, deep learning techniques have shown significant prediction improvements over traditional models, however, open questions remain around their applicability, accuracy and parameter tuning. This paper brings two contributions in terms of: 1) applying an outlier detection an anomaly adjustment method based on incoming and historical data streams, and 2) proposing an advanced deep learning framework for simultaneously predicting the traffic flow, speed and occupancy on a large number of monitoring stations along a highly circulated motorway in Sydney, Australia, including exit and entry loop count stations, and over varying training and prediction time horizons. The spatial and temporal features extracted from the 36.34 million data points are used in various deep learning architectures that exploit their spatial structure (convolutional neuronal networks), their temporal dynamics (recurrent neuronal networks), or both through a hybrid spatio-temporal modelling (CNN-LSTM). We show that our deep learning models consistently outperform traditional methods, and we conduct a comparative analysis of the optimal time horizon of historical data required to predict traffic flow at different time points in the future. Lastly, we prove that the anomaly adjustment method brings significant improvements to using deep learning in both time and space.",
+    "published": "2020-06-23T08:49:46Z",
+    "updated": "2020-06-23T08:49:46Z",
+    "categories": [
+      "eess.SP",
+      "cs.LG"
+    ],
+    "primary_category": "eess.SP",
+    "url": "https://arxiv.org/abs/2006.13215",
+    "pdf_url": "https://arxiv.org/pdf/2006.13215v1",
+    "doi": null
+  },
+  {
+    "arxiv_id": "2006.04077",
+    "arxiv_id_version": "2006.04077v1",
+    "title": "FMA-ETA: Estimating Travel Time Entirely Based on FFN With Attention",
+    "authors": [
+      "Yiwen Sun",
+      "Yulu Wang",
+      "Kun Fu",
+      "Zheng Wang",
+      "Ziang Yan",
+      "Changshui Zhang",
+      "Jieping Ye"
+    ],
+    "abstract": "Estimated time of arrival (ETA) is one of the most important services in intelligent transportation systems and becomes a challenging spatial-temporal (ST) data mining task in recent years. Nowadays, deep learning based methods, specifically recurrent neural networks (RNN) based ones are adapted to model the ST patterns from massive data for ETA and become the state-of-the-art. However, RNN is suffering from slow training and inference speed, as its structure is unfriendly to parallel computing. To solve this problem, we propose a novel, brief and effective framework mainly based on feed-forward network (FFN) for ETA, FFN with Multi-factor self-Attention (FMA-ETA). The novel Multi-factor self-attention mechanism is proposed to deal with different category features and aggregate the information purposefully. Extensive experimental results on the real-world vehicle travel dataset show FMA-ETA is competitive with state-of-the-art methods in terms of the prediction accuracy with significantly better inference speed.",
+    "published": "2020-06-07T08:10:47Z",
+    "updated": "2020-06-07T08:10:47Z",
+    "categories": [
+      "cs.LG",
+      "stat.ML"
+    ],
+    "primary_category": "cs.LG",
+    "url": "https://arxiv.org/abs/2006.04077",
+    "pdf_url": "https://arxiv.org/pdf/2006.04077v1",
+    "doi": null
+  },
+  {
+    "arxiv_id": "2005.13818",
+    "arxiv_id_version": "2005.13818v1",
+    "title": "Travel Time Prediction using Tree-Based Ensembles",
+    "authors": [
+      "He Huang",
+      "Martin Pouls",
+      "Anne Meyer",
+      "Markus Pauly"
+    ],
+    "abstract": "In this paper, we consider the task of predicting travel times between two arbitrary points in an urban scenario. We view this problem from two temporal perspectives: long-term forecasting with a horizon of several days and short-term forecasting with a horizon of one hour. Both of these perspectives are relevant for planning tasks in the context of urban mobility and transportation services. We utilize tree-based ensemble methods that we train and evaluate on a dataset of taxi trip records from New York City. Through extensive data analysis, we identify relevant temporal and spatial features. We also engineer additional features based on weather and routing data. The latter is obtained via a routing solver operating on the road network. The computational results show that the addition of this routing data can be beneficial to the model performance. Moreover, employing different models for short and long-term prediction is useful as short-term models are better suited to mirror current traffic conditions. In fact, we show that accurate short-term predictions may be obtained with only little training data.",
+    "published": "2020-05-28T07:43:54Z",
+    "updated": "2020-05-28T07:43:54Z",
+    "categories": [
+      "stat.ML",
+      "cs.LG"
+    ],
+    "primary_category": "stat.ML",
+    "url": "https://arxiv.org/abs/2005.13818",
+    "pdf_url": "https://arxiv.org/pdf/2005.13818v1",
+    "doi": "10.1007/978-3-030-59747-4_27"
+  },
+  {
+    "arxiv_id": "2005.04788",
+    "arxiv_id_version": "2005.04788v2",
+    "title": "Distributed Fine-Grained Traffic Speed Prediction for Large-Scale Transportation Networks based on Automatic LSTM Customization and Sharing",
+    "authors": [
+      "Ming-Chang Lee",
+      "Jia-Chun Lin",
+      "Ernst Gunnar Gran"
+    ],
+    "abstract": "Short-term traffic speed prediction has been an important research topic in the past decade, and many approaches have been introduced. However, providing fine-grained, accurate, and efficient traffic-speed prediction for large-scale transportation networks where numerous traffic detectors are deployed has not been well studied. In this paper, we propose DistPre, which is a distributed fine-grained traffic speed prediction scheme for large-scale transportation networks. To achieve fine-grained and accurate traffic-speed prediction, DistPre customizes a Long Short-Term Memory (LSTM) model with an appropriate hyperparameter configuration for a detector. To make such customization process efficient and applicable for large-scale transportation networks, DistPre conducts LSTM customization on a cluster of computation nodes and allows any trained LSTM model to be shared between different detectors. If a detector observes a similar traffic pattern to another one, DistPre directly shares the existing LSTM model between the two detectors rather than customizing an LSTM model per detector. Experiments based on traffic data collected from freeway I5-N in California are conducted to evaluate the performance of DistPre. The results demonstrate that DistPre provides time-efficient LSTM customization and accurate fine-grained traffic-speed prediction for large-scale transportation networks.",
+    "published": "2020-05-10T21:24:23Z",
+    "updated": "2020-06-03T13:17:42Z",
+    "categories": [
+      "cs.LG",
+      "stat.ML"
+    ],
+    "primary_category": "cs.LG",
+    "url": "https://arxiv.org/abs/2005.04788",
+    "pdf_url": "https://arxiv.org/pdf/2005.04788v2",
+    "doi": null
+  },
+  {
+    "arxiv_id": "2004.04030",
+    "arxiv_id_version": "2004.04030v1",
+    "title": "Neural Networks Model for Travel Time Prediction Based on ODTravel Time Matrix",
+    "authors": [
+      "Ayobami E. Adewale",
+      "Amnir Hadachi"
+    ],
+    "abstract": "Public transportation system commuters are often interested in getting accurate travel time information to plan their daily activities. However, this information is often difficult to predict accurately due to the irregularities of road traffic, caused by factors such as weather conditions, road accidents, and traffic jams. In this study, two neural network models namely multi-layer(MLP) perceptron and long short-term model(LSTM) are developed for predicting link travel time of a busy route with input generated using Origin-Destination travel time matrix derived from a historical GPS dataset. The experiment result showed that both models can make near-accurate predictions however, LSTM is more susceptible to noise as time step increases.",
+    "published": "2020-04-08T15:01:13Z",
+    "updated": "2020-04-08T15:01:13Z",
+    "categories": [
+      "cs.LG",
+      "cs.NE",
+      "stat.ML"
+    ],
+    "primary_category": "cs.LG",
+    "url": "https://arxiv.org/abs/2004.04030",
+    "pdf_url": "https://arxiv.org/pdf/2004.04030v1",
+    "doi": null
+  },
+  {
+    "arxiv_id": "2003.07268",
+    "arxiv_id_version": "2003.07268v4",
+    "title": "Model Monitoring and Dynamic Model Selection in Travel Time-series Forecasting",
+    "authors": [
+      "Rosa Candela",
+      "Pietro Michiardi",
+      "Maurizio Filippone",
+      "Maria A. Zuluaga"
+    ],
+    "abstract": "Accurate travel products price forecasting is a highly desired feature that allows customers to take informed decisions about purchases, and companies to build and offer attractive tour packages. Thanks to machine learning (ML), it is now relatively cheap to develop highly accurate statistical models for price time-series forecasting. However, once models are deployed in production, it is their monitoring, maintenance and improvement which carry most of the costs and difficulties over time. We introduce a data-driven framework to continuously monitor and maintain deployed time-series forecasting models' performance, to guarantee stable performance of travel products price forecasting models. Under a supervised learning approach, we predict the errors of time-series forecasting models over time, and use this predicted performance measure to achieve both model monitoring and maintenance. We validate the proposed method on a dataset of 18K time-series from flight and hotel prices collected over two years and on two public benchmarks.",
+    "published": "2020-03-16T15:07:32Z",
+    "updated": "2020-09-11T14:35:17Z",
+    "categories": [
+      "stat.AP"
+    ],
+    "primary_category": "stat.AP",
+    "url": "https://arxiv.org/abs/2003.07268",
+    "pdf_url": "https://arxiv.org/pdf/2003.07268v4",
+    "doi": "10.1007/978-3-030-67667-4_31"
+  },
+  {
+    "arxiv_id": "2003.07033",
+    "arxiv_id_version": "2003.07033v1",
+    "title": "PCNN: Deep Convolutional Networks for Short-term Traffic Congestion Prediction",
+    "authors": [
+      "Meng Chen",
+      "Xiaohui Yu",
+      "Yang Liu"
+    ],
+    "abstract": "Traffic problems have seriously affected people's life quality and urban development, and forecasting the short-term traffic congestion is of great importance to both individuals and governments. However, understanding and modeling the traffic conditions can be extremely difficult, and our observations from real traffic data reveal that (1) similar traffic congestion patterns exist in the neighboring time slots and on consecutive workdays; (2) the levels of traffic congestion have clear multiscale properties. To capture these characteristics, we propose a novel method named PCNN based on deep Convolutional Neural Network, modeling Periodic traffic data for short-term traffic congestion prediction. PCNN has two pivotal procedures: time series folding and multi-grained learning. It first temporally folds the time series and constructs a two-dimensional matrix as the network input, such that both the real-time traffic conditions and past traffic patterns are well considered; then with a series of convolutions over the input matrix, it is able to model the local temporal dependency and multiscale traffic patterns. In particular, the global trend of congestion can be addressed at the macroscale; whereas more details and variations of the congestion can be captured at the microscale. Experimental results on a real-world urban traffic dataset confirm that folding time series data into a two-dimensional matrix is effective and PCNN outperforms the baselines significantly for the task of short-term congestion prediction.",
+    "published": "2020-03-16T05:36:58Z",
+    "updated": "2020-03-16T05:36:58Z",
+    "categories": [
+      "eess.SP",
+      "cs.LG"
+    ],
+    "primary_category": "eess.SP",
+    "url": "https://arxiv.org/abs/2003.07033",
+    "pdf_url": "https://arxiv.org/pdf/2003.07033v1",
+    "doi": "10.1109/TITS.2018.2835523"
+  },
+  {
+    "arxiv_id": "2003.07781",
+    "arxiv_id_version": "2003.07781v1",
+    "title": "TTDM: A Travel Time Difference Model for Next Location Prediction",
+    "authors": [
+      "Qingjie Liu",
+      "Yixuan Zuo",
+      "Xiaohui Yu",
+      "Meng Chen"
+    ],
+    "abstract": "Next location prediction is of great importance for many location-based applications and provides essential intelligence to business and governments. In existing studies, a common approach to next location prediction is to learn the sequential transitions with massive historical trajectories based on conditional probability. Unfortunately, due to the time and space complexity, these methods (e.g., Markov models) only use the just passed locations to predict next locations, without considering all the passed locations in the trajectory. In this paper, we seek to enhance the prediction performance by considering the travel time from all the passed locations in the query trajectory to a candidate next location. In particular, we propose a novel method, called Travel Time Difference Model (TTDM), which exploits the difference between the shortest travel time and the actual travel time to predict next locations. Further, we integrate the TTDM with a Markov model via a linear interpolation to yield a joint model, which computes the probability of reaching each possible next location and returns the top-rankings as results. We have conducted extensive experiments on two real datasets: the vehicle passage record (VPR) data and the taxi trajectory data. The experimental results demonstrate significant improvements in prediction accuracy over existing solutions. For example, compared with the Markov model, the top-1 accuracy improves by 40% on the VPR data and by 15.6% on the Taxi data.",
+    "published": "2020-03-16T05:16:43Z",
+    "updated": "2020-03-16T05:16:43Z",
+    "categories": [
+      "cs.AI",
+      "cs.SI"
+    ],
+    "primary_category": "cs.AI",
+    "url": "https://arxiv.org/abs/2003.07781",
+    "pdf_url": "https://arxiv.org/pdf/2003.07781v1",
+    "doi": "10.1109/MDM.2019.00-54"
+  },
+  {
+    "arxiv_id": "2001.09821",
+    "arxiv_id_version": "2001.09821v2",
+    "title": "DALC: Distributed Automatic LSTM Customization for Fine-Grained Traffic Speed Prediction",
+    "authors": [
+      "Ming-Chang Lee",
+      "Jia-Chun Lin"
+    ],
+    "abstract": "Over the past decade, several approaches have been introduced for short-term traffic prediction. However, providing fine-grained traffic prediction for large-scale transportation networks where numerous detectors are geographically deployed to collect traffic data is still an open issue. To address this issue, in this paper, we formulate the problem of customizing an LSTM model for a single detector into a finite Markov decision process and then introduce an Automatic LSTM Customization (ALC) algorithm to automatically customize an LSTM model for a single detector such that the corresponding prediction accuracy can be as satisfactory as possible and the time consumption can be as low as possible. Based on the ALC algorithm, we introduce a distributed approach called Distributed Automatic LSTM Customization (DALC) to customize an LSTM model for every detector in large-scale transportation networks. Our experiment demonstrates that the DALC provides higher prediction accuracy than several approaches provided by Apache Spark MLlib.",
+    "published": "2020-01-24T09:25:36Z",
+    "updated": "2020-02-04T12:44:23Z",
+    "categories": [
+      "cs.LG",
+      "eess.SP",
+      "stat.ML"
+    ],
+    "primary_category": "cs.LG",
+    "url": "https://arxiv.org/abs/2001.09821",
+    "pdf_url": "https://arxiv.org/pdf/2001.09821v2",
+    "doi": null
+  }
+]

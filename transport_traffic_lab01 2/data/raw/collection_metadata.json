@@ -1,0 +1,41 @@
+{
+  "source": "https://export.arxiv.org/api/query",
+  "documentation": "https://info.arxiv.org/help/api/user-manual.html",
+  "search_query": "(abs:\"traffic prediction\" OR abs:\"traffic forecasting\" OR abs:\"traffic flow prediction\") AND submittedDate:[202001010000 TO 202612312359]",
+  "date_basis": "first submission (published)",
+  "date_from": "2020-01-01",
+  "date_to": "2026-12-31",
+  "started_at_utc": "2026-10-04T17:01:50.981836+00:00",
+  "completed_at_utc": "2026-10-04T17:04:22.583403+00:00",
+  "total_results": 692,
+  "downloaded_records": 692,
+  "unique_records": 692,
+  "duplicates_removed": 0,
+  "missing_required_fields": [],
+  "outside_date_range": [],
+  "oldest_publication": "2020-01-08T13:10:40Z",
+  "newest_publication": "2026-09-23T10:00:28Z",
+  "topic_filter_applied": false,
+  "pages": [
+    {
+      "url": "https://export.arxiv.org/api/query?search_query=%28abs%3A%22traffic+prediction%22+OR+abs%3A%22traffic+forecasting%22+OR+abs%3A%22traffic+flow+prediction%22%29+AND+submittedDate%3A%5B202001010000+TO+202612312359%5D&start=0&max_results=200&sortBy=submittedDate&sortOrder=descending",
+      "raw_file": "raw/page_00000_02a33caf2c93.xml",
+      "sha256": "091b2b455b76349e4a656691733ba86e89b480d9f60c25904495a7fd267c221b"
+    },
+    {
+      "url": "https://export.arxiv.org/api/query?search_query=%28abs%3A%22traffic+prediction%22+OR+abs%3A%22traffic+forecasting%22+OR+abs%3A%22traffic+flow+prediction%22%29+AND+submittedDate%3A%5B202001010000+TO+202612312359%5D&start=200&max_results=200&sortBy=submittedDate&sortOrder=descending",
+      "raw_file": "raw/page_00200_19e863e4ebea.xml",
+      "sha256": "801698c279bdd1098c28f44063976fe9d80517da7723fe8867b6bcfec28f1738"
+    },
+    {
+      "url": "https://export.arxiv.org/api/query?search_query=%28abs%3A%22traffic+prediction%22+OR+abs%3A%22traffic+forecasting%22+OR+abs%3A%22traffic+flow+prediction%22%29+AND+submittedDate%3A%5B202001010000+TO+202612312359%5D&start=400&max_results=200&sortBy=submittedDate&sortOrder=descending",
+      "raw_file": "raw/page_00400_aca3cadd5c4b.xml",
+      "sha256": "7b4c08a6c08ebd9e0e92e2cd674a8a2dd7ae559d4f8346d53106f70f3bf5018e"
+    },
+    {
+      "url": "https://export.arxiv.org/api/query?search_query=%28abs%3A%22traffic+prediction%22+OR+abs%3A%22traffic+forecasting%22+OR+abs%3A%22traffic+flow+prediction%22%29+AND+submittedDate%3A%5B202001010000+TO+202612312359%5D&start=600&max_results=200&sortBy=submittedDate&sortOrder=descending",
+      "raw_file": "raw/page_00600_6f378c16a572.xml",
+      "sha256": "ee12a4e5ace604f46fc6b9146a4c3253c612b44fb9bd6ece1c7f090efc835c98"
+    }
+  ]
+}
